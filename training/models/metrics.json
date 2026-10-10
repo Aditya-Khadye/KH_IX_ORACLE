@@ -2,15 +2,15 @@
  "chosen_model": "lr",
  "cross_validation": {
   "lr": {
-   "auc": 0.6651273255046839,
-   "mean_auc_per_hackathon": 0.6767991965019864,
+   "auc": 0.665127325504684,
+   "mean_auc_per_hackathon": 0.676802156623233,
    "precision_at_k": 0.3486088379705401,
    "base_rate": 0.17328417470221213
   },
   "lgbm": {
-   "auc": 0.6392793076052811,
-   "mean_auc_per_hackathon": 0.6521686022222581,
-   "precision_at_k": 0.32405891980360063,
+   "auc": 0.6386858424594274,
+   "mean_auc_per_hackathon": 0.6505894979051048,
+   "precision_at_k": 0.3142389525368249,
    "base_rate": 0.17328417470221213
   }
  },
