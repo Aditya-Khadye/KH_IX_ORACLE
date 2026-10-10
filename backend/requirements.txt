@@ -1,0 +1,4 @@
+fastapi
+uvicorn
+pydantic>=2
+-r ../training/requirements.txt

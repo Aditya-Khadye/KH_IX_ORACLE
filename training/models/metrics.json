@@ -1,0 +1,89 @@
+{
+ "chosen_model": "lr",
+ "cross_validation": {
+  "lr": {
+   "auc": 0.6651273255046839,
+   "mean_auc_per_hackathon": 0.6767991965019864,
+   "precision_at_k": 0.3486088379705401,
+   "base_rate": 0.17328417470221213
+  },
+  "lgbm": {
+   "auc": 0.6392793076052811,
+   "mean_auc_per_hackathon": 0.6521686022222581,
+   "precision_at_k": 0.32405891980360063,
+   "base_rate": 0.17328417470221213
+  }
+ },
+ "backtest": {
+  "hackathon": "Knight Hacks VIII",
+  "n_projects": 188,
+  "n_winners": 32,
+  "winners_in_our_top_k": 13,
+  "winners_in_our_top_10": 3,
+  "random_expected_top_10": 1.7,
+  "auc": 0.6989182692307693,
+  "best_overall_rank": 10,
+  "top_10": [
+   {
+    "title": "Kinexis",
+    "prob": 0.735,
+    "actually_won": true,
+    "prizes": "Best App Development Hack"
+   },
+   {
+    "title": "AeroMouse",
+    "prob": 0.695,
+    "actually_won": false,
+    "prizes": ""
+   },
+   {
+    "title": "Light Hacks",
+    "prob": 0.693,
+    "actually_won": false,
+    "prizes": ""
+   },
+   {
+    "title": "SoundSketcher",
+    "prob": 0.685,
+    "actually_won": false,
+    "prizes": ""
+   },
+   {
+    "title": "Morganizer",
+    "prob": 0.672,
+    "actually_won": false,
+    "prizes": ""
+   },
+   {
+    "title": "Shuubox",
+    "prob": 0.665,
+    "actually_won": false,
+    "prizes": ""
+   },
+   {
+    "title": "Dumb-E (skipping judging)",
+    "prob": 0.661,
+    "actually_won": false,
+    "prizes": ""
+   },
+   {
+    "title": "Simply Law",
+    "prob": 0.653,
+    "actually_won": true,
+    "prizes": "Morgan & Morgan: AI Legal Tender Challenge"
+   },
+   {
+    "title": "TACO",
+    "prob": 0.652,
+    "actually_won": false,
+    "prizes": ""
+   },
+   {
+    "title": "Emergent",
+    "prob": 0.647,
+    "actually_won": true,
+    "prizes": "Best Overall Hack|Google Cloud Gemini A2A ADK: The Autonomous Agent Challenge"
+   }
+  ]
+ }
+}

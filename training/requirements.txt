@@ -1,0 +1,8 @@
+requests
+beautifulsoup4
+pandas
+numpy
+scikit-learn
+lightgbm
+sentence-transformers
+joblib

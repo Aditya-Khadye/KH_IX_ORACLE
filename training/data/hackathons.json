@@ -1,0 +1,2405 @@
+[
+ {
+  "id": 1026,
+  "title": "Bitcamp 2014",
+  "url": "https://bitcamp.devpost.com/",
+  "gallery": "https://bitcamp.devpost.com/project-gallery",
+  "registrations": 270,
+  "dates": "Apr 04 - 06, 2014",
+  "location": "College Park, MD, USA"
+ },
+ {
+  "id": 2333,
+  "title": "Bitcamp 2015",
+  "url": "https://bitcamp15.devpost.com/",
+  "gallery": "https://bitcamp15.devpost.com/project-gallery",
+  "registrations": 273,
+  "dates": "Apr 10 - 12, 2015",
+  "location": "College Park, MD, USA"
+ },
+ {
+  "id": 3684,
+  "title": "Bitcamp 2016",
+  "url": "https://bitcamp16.devpost.com/",
+  "gallery": "https://bitcamp16.devpost.com/project-gallery",
+  "registrations": 366,
+  "dates": "Apr 08 - 10, 2016",
+  "location": "University of Maryland College Park"
+ },
+ {
+  "id": 4980,
+  "title": "Bitcamp 2017",
+  "url": "https://bitcamp2017.devpost.com/",
+  "gallery": "https://bitcamp2017.devpost.com/project-gallery",
+  "registrations": 451,
+  "dates": "Apr 07 - 09, 2017",
+  "location": "Xfinity Center @ University of Maryland - College Park"
+ },
+ {
+  "id": 6112,
+  "title": "Bitcamp 2018",
+  "url": "https://bitcamp2018.devpost.com/",
+  "gallery": "https://bitcamp2018.devpost.com/project-gallery",
+  "registrations": 481,
+  "dates": "Apr 06 - 08, 2018",
+  "location": "Xfinity Center at College Park"
+ },
+ {
+  "id": 7788,
+  "title": "Bitcamp 2019",
+  "url": "https://bitcamp2019.devpost.com/",
+  "gallery": "https://bitcamp2019.devpost.com/project-gallery",
+  "registrations": 418,
+  "dates": "Apr 12 - 14, 2019",
+  "location": "Xfinity Center at College Park"
+ },
+ {
+  "id": 15209,
+  "title": "Bitcamp 2022",
+  "url": "https://bitcamp2022.devpost.com/",
+  "gallery": "https://bitcamp2022.devpost.com/project-gallery",
+  "registrations": 282,
+  "dates": "Apr 08 - 10, 2022",
+  "location": "XFINITY Center"
+ },
+ {
+  "id": 18007,
+  "title": "Bitcamp 2023",
+  "url": "https://bitcamp2023.devpost.com/",
+  "gallery": "https://bitcamp2023.devpost.com/project-gallery",
+  "registrations": 429,
+  "dates": "Apr 07 - 09, 2023",
+  "location": "XFINITY Center"
+ },
+ {
+  "id": 20852,
+  "title": "Bitcamp 2024",
+  "url": "https://bitcamp2024.devpost.com/",
+  "gallery": "https://bitcamp2024.devpost.com/project-gallery",
+  "registrations": 557,
+  "dates": "Apr 19 - 21, 2024",
+  "location": "Reckord Armory"
+ },
+ {
+  "id": 24235,
+  "title": "Bitcamp 2025",
+  "url": "https://bitcamp2025.devpost.com/",
+  "gallery": "https://bitcamp2025.devpost.com/project-gallery",
+  "registrations": 762,
+  "dates": "Apr 11 - 13, 2025",
+  "location": "Reckord Armory"
+ },
+ {
+  "id": 29573,
+  "title": "Bitcamp 2026",
+  "url": "https://bitcamp-2026.devpost.com/",
+  "gallery": "https://bitcamp-2026.devpost.com/project-gallery",
+  "registrations": 662,
+  "dates": "Apr 10 - 12, 2026",
+  "location": "Reckord Armory"
+ },
+ {
+  "id": 30275,
+  "title": "BloomKnights",
+  "url": "https://bloomknights.devpost.com/",
+  "gallery": "https://bloomknights.devpost.com/project-gallery",
+  "registrations": 247,
+  "dates": "Jul 11, 2026",
+  "location": "Business Administration 1"
+ },
+ {
+  "id": 2943,
+  "title": "BoilerMake",
+  "url": "https://boilermake2015.devpost.com/",
+  "gallery": "https://boilermake2015.devpost.com/project-gallery",
+  "registrations": 218,
+  "dates": "Oct 16 - 18, 2015",
+  "location": "Purdue University - Lambert Fieldhouse"
+ },
+ {
+  "id": 703,
+  "title": "BoilerMake",
+  "url": "https://boilermake.devpost.com/",
+  "gallery": "https://boilermake.devpost.com/project-gallery",
+  "registrations": 207,
+  "dates": "Feb 07 - 09, 2014",
+  "location": "West Lafayette, Indiana, USA"
+ },
+ {
+  "id": 1584,
+  "title": "BoilerMake 2014",
+  "url": "https://boilermake2014.devpost.com/",
+  "gallery": "https://boilermake2014.devpost.com/project-gallery",
+  "registrations": 273,
+  "dates": "Oct 17 - 19, 2014",
+  "location": "West Lafayette, IN, USA"
+ },
+ {
+  "id": 4623,
+  "title": "BoilerMake IV",
+  "url": "https://boilermake-iv.devpost.com/",
+  "gallery": "https://boilermake-iv.devpost.com/project-gallery",
+  "registrations": 306,
+  "dates": "Jan 20 - 22, 2017",
+  "location": "Purdue University - CoRec"
+ },
+ {
+  "id": 7153,
+  "title": "BoilerMake VI",
+  "url": "https://boilermake-vi.devpost.com/",
+  "gallery": "https://boilermake-vi.devpost.com/project-gallery",
+  "registrations": 207,
+  "dates": "Oct 19 - 21, 2018",
+  "location": "Purdue University - Hicks Undergraduate Library"
+ },
+ {
+  "id": 9229,
+  "title": "BoilerMake VII",
+  "url": "https://boilermake-vii.devpost.com/",
+  "gallery": "https://boilermake-vii.devpost.com/project-gallery",
+  "registrations": 271,
+  "dates": "Jan 24 - 26, 2020",
+  "location": "Purdue University - France A. C\u00f3rdova Recreational Sports Center"
+ },
+ {
+  "id": 17070,
+  "title": "BoilerMake X",
+  "url": "https://boilermake-x.devpost.com/",
+  "gallery": "https://boilermake-x.devpost.com/project-gallery",
+  "registrations": 267,
+  "dates": "Jan 20 - 22, 2023",
+  "location": "Purdue University - CoRec"
+ },
+ {
+  "id": 24141,
+  "title": "BoilerMake XII",
+  "url": "https://boilermake-xii.devpost.com/",
+  "gallery": "https://boilermake-xii.devpost.com/project-gallery",
+  "registrations": 380,
+  "dates": "Feb 21 - 23, 2025",
+  "location": "France A. C\u00f3rdova Rec. Sports Center"
+ },
+ {
+  "id": 20186,
+  "title": "Boilermake XI",
+  "url": "https://boilermake-xi.devpost.com/",
+  "gallery": "https://boilermake-xi.devpost.com/project-gallery",
+  "registrations": 240,
+  "dates": "Jan 19 - 21, 2024",
+  "location": "France A. C\u00f3rdova Rec. Sports Center"
+ },
+ {
+  "id": 6471,
+  "title": "Citrus Hack",
+  "url": "https://citrushack2018.devpost.com/",
+  "gallery": "https://citrushack2018.devpost.com/project-gallery",
+  "registrations": 167,
+  "dates": "Apr 21 - 22, 2018",
+  "location": "University of California, Riverside - Winston Chung Hall"
+ },
+ {
+  "id": 6008,
+  "title": "CruzHacks 2018",
+  "url": "https://cruzhacks2018.devpost.com/",
+  "gallery": "https://cruzhacks2018.devpost.com/project-gallery",
+  "registrations": 306,
+  "dates": "Jan 19 - 21, 2018",
+  "location": "Porter/Kresge Dining Hall"
+ },
+ {
+  "id": 7532,
+  "title": "CruzHacks 2019",
+  "url": "https://cruzhacks-2019.devpost.com/",
+  "gallery": "https://cruzhacks-2019.devpost.com/project-gallery",
+  "registrations": 301,
+  "dates": "Jan 18 - 20, 2019",
+  "location": "Stevenson Event Center"
+ },
+ {
+  "id": 9270,
+  "title": "CruzHacks 2020",
+  "url": "https://cruzhacks-2020.devpost.com/",
+  "gallery": "https://cruzhacks-2020.devpost.com/project-gallery",
+  "registrations": 222,
+  "dates": "Jan 18 - 19, 2020",
+  "location": "UCSC Stevenson College"
+ },
+ {
+  "id": 16821,
+  "title": "CruzHacks 2023",
+  "url": "https://cruzhacks-2023.devpost.com/",
+  "gallery": "https://cruzhacks-2023.devpost.com/project-gallery",
+  "registrations": 296,
+  "dates": "Feb 04 - 05, 2023",
+  "location": "University of California, Santa Cruz"
+ },
+ {
+  "id": 19740,
+  "title": "CruzHacks 2024",
+  "url": "https://cruzhacks-2024.devpost.com/",
+  "gallery": "https://cruzhacks-2024.devpost.com/project-gallery",
+  "registrations": 330,
+  "dates": "Jan 20 - 21, 2024",
+  "location": "Stevenson Event Center"
+ },
+ {
+  "id": 24646,
+  "title": "CruzHacks 2025",
+  "url": "https://cruzhacks-2025.devpost.com/",
+  "gallery": "https://cruzhacks-2025.devpost.com/project-gallery",
+  "registrations": 225,
+  "dates": "Apr 12 - 13, 2025",
+  "location": "Civic Auditorium"
+ },
+ {
+  "id": 27774,
+  "title": "CruzHacks 2026",
+  "url": "https://cruzhacks--2026.devpost.com/",
+  "gallery": "https://cruzhacks--2026.devpost.com/project-gallery",
+  "registrations": 278,
+  "dates": "Jan 17 - 18, 2026",
+  "location": "UC Santa Cruz - Stevenson Event Center"
+ },
+ {
+  "id": 16598,
+  "title": "Cutie Hack 2022",
+  "url": "https://cutie-hack-2022.devpost.com/",
+  "gallery": "https://cutie-hack-2022.devpost.com/project-gallery",
+  "registrations": 160,
+  "dates": "Nov 05 - 06, 2022",
+  "location": "UCR - Winston Chung Hall"
+ },
+ {
+  "id": 19711,
+  "title": "Cutie Hack 2023",
+  "url": "https://cutiehack2023.devpost.com/",
+  "gallery": "https://cutiehack2023.devpost.com/project-gallery",
+  "registrations": 161,
+  "dates": "Nov 18, 2023",
+  "location": "University of California, Riverside"
+ },
+ {
+  "id": 27983,
+  "title": "DeltaHacks 12",
+  "url": "https://deltahacks-12.devpost.com/",
+  "gallery": "https://deltahacks-12.devpost.com/project-gallery",
+  "registrations": 521,
+  "dates": "Jan 10 - 11, 2026",
+  "location": "McMaster University - PGCLL"
+ },
+ {
+  "id": 17051,
+  "title": "DeltaHacks IX",
+  "url": "https://deltahacks9.devpost.com/",
+  "gallery": "https://deltahacks9.devpost.com/project-gallery",
+  "registrations": 426,
+  "dates": "Jan 14 - 15, 2023",
+  "location": "PG Centre for Living & Learning (PGCLL)"
+ },
+ {
+  "id": 7401,
+  "title": "DeltaHacks V",
+  "url": "https://deltahacks5.devpost.com/",
+  "gallery": "https://deltahacks5.devpost.com/project-gallery",
+  "registrations": 355,
+  "dates": "Jan 26 - 27, 2019",
+  "location": "Thode Library - McMaster University"
+ },
+ {
+  "id": 9212,
+  "title": "DeltaHacks VI",
+  "url": "https://deltahacks6.devpost.com/",
+  "gallery": "https://deltahacks6.devpost.com/project-gallery",
+  "registrations": 539,
+  "dates": "Jan 25 - 26, 2020",
+  "location": "H.G Thode Library of Science and Engineering"
+ },
+ {
+  "id": 20043,
+  "title": "DeltaHacks X",
+  "url": "https://deltahacks-x.devpost.com/",
+  "gallery": "https://deltahacks-x.devpost.com/project-gallery",
+  "registrations": 349,
+  "dates": "Jan 13 - 14, 2024",
+  "location": "PG Centre for Living & Learning (PGCLL)"
+ },
+ {
+  "id": 23561,
+  "title": "DeltaHacks XI",
+  "url": "https://deltahacks-xi.devpost.com/",
+  "gallery": "https://deltahacks-xi.devpost.com/project-gallery",
+  "registrations": 493,
+  "dates": "Jan 11 - 12, 2025",
+  "location": "Hamilton, Canada"
+ },
+ {
+  "id": 25527,
+  "title": "GemiKnights ",
+  "url": "https://gemiknights.devpost.com/",
+  "gallery": "https://gemiknights.devpost.com/project-gallery",
+  "registrations": 170,
+  "dates": "Jun 28, 2025",
+  "location": "University of Central Florida "
+ },
+ {
+  "id": 2926,
+  "title": "Hack ISU",
+  "url": "https://hack-isu-2015.devpost.com/",
+  "gallery": "https://hack-isu-2015.devpost.com/project-gallery",
+  "registrations": 210,
+  "dates": "Sep 18 - 20, 2015",
+  "location": "Coover Hall"
+ },
+ {
+  "id": 1319,
+  "title": "Hack The North",
+  "url": "https://hackthenorth.devpost.com/",
+  "gallery": "https://hackthenorth.devpost.com/project-gallery",
+  "registrations": 623,
+  "dates": "Sep 19 - 21, 2014",
+  "location": "Waterloo, Canada"
+ },
+ {
+  "id": 25786,
+  "title": "Hack the 6ix 2025",
+  "url": "https://hackthe6ix2025.devpost.com/",
+  "gallery": "https://hackthe6ix2025.devpost.com/project-gallery",
+  "registrations": 394,
+  "dates": "Jul 18 - 20, 2025",
+  "location": "Accolade East Building"
+ },
+ {
+  "id": 2684,
+  "title": "Hack the North 2015",
+  "url": "https://hackthenorth2015.devpost.com/",
+  "gallery": "https://hackthenorth2015.devpost.com/project-gallery",
+  "registrations": 730,
+  "dates": "Sep 18 - 20, 2015",
+  "location": "E5, University of Waterloo"
+ },
+ {
+  "id": 4165,
+  "title": "Hack the North 2016",
+  "url": "https://hackthenorth2016.devpost.com/",
+  "gallery": "https://hackthenorth2016.devpost.com/project-gallery",
+  "registrations": 683,
+  "dates": "Sep 16 - 18, 2016",
+  "location": "University of Waterloo - Engineering 5"
+ },
+ {
+  "id": 5413,
+  "title": "Hack the North 2018",
+  "url": "https://hackthenorth2018.devpost.com/",
+  "gallery": "https://hackthenorth2018.devpost.com/project-gallery",
+  "registrations": 737,
+  "dates": "Sep 14 - 16, 2018",
+  "location": "University of Waterloo - Engineering 7"
+ },
+ {
+  "id": 5414,
+  "title": "Hack the North 2019",
+  "url": "https://hackthenorth2019.devpost.com/",
+  "gallery": "https://hackthenorth2019.devpost.com/project-gallery",
+  "registrations": 1080,
+  "dates": "Sep 13 - 15, 2019",
+  "location": "University of Waterloo - Engineering 7"
+ },
+ {
+  "id": 5417,
+  "title": "Hack the North 2022",
+  "url": "https://hackthenorth2022.devpost.com/",
+  "gallery": "https://hackthenorth2022.devpost.com/project-gallery",
+  "registrations": 825,
+  "dates": "Sep 17 - 18, 2022",
+  "location": "University of Waterloo E5/E7"
+ },
+ {
+  "id": 5418,
+  "title": "Hack the North 2023",
+  "url": "https://hackthenorth2023.devpost.com/",
+  "gallery": "https://hackthenorth2023.devpost.com/project-gallery",
+  "registrations": 867,
+  "dates": "Sep 16 - 17, 2023",
+  "location": "University of Waterloo E5/E7"
+ },
+ {
+  "id": 16114,
+  "title": "Hack the North 2024",
+  "url": "https://hackthenorth2024.devpost.com/",
+  "gallery": "https://hackthenorth2024.devpost.com/project-gallery",
+  "registrations": 833,
+  "dates": "Sep 13 - 15, 2024",
+  "location": "University of Waterloo - E5/E6/E7"
+ },
+ {
+  "id": 16115,
+  "title": "Hack the North 2025",
+  "url": "https://hackthenorth2025.devpost.com/",
+  "gallery": "https://hackthenorth2025.devpost.com/project-gallery",
+  "registrations": 872,
+  "dates": "Sep 12 - 14, 2025",
+  "location": "University of Waterloo \u2014 E5/E6/E7"
+ },
+ {
+  "id": 16116,
+  "title": "Hack the North 2026",
+  "url": "https://hackthenorth2026.devpost.com/",
+  "gallery": "https://hackthenorth2026.devpost.com/project-gallery",
+  "registrations": 1045,
+  "dates": "Sep 18 - 20, 2026",
+  "location": "University of Waterloo \u2014 E5/PSE"
+ },
+ {
+  "id": 2768,
+  "title": "Hack the Planet",
+  "url": "https://htp-s2015.devpost.com/",
+  "gallery": "https://htp-s2015.devpost.com/project-gallery",
+  "registrations": 310,
+  "dates": "Aug 15 - 16, 2015",
+  "location": "Computer History Museum"
+ },
+ {
+  "id": 1832,
+  "title": "Hack@Brown 2015",
+  "url": "https://hackatbrown2015.devpost.com/",
+  "gallery": "https://hackatbrown2015.devpost.com/project-gallery",
+  "registrations": 158,
+  "dates": "Feb 07 - 08, 2015",
+  "location": "Providence, RI, USA"
+ },
+ {
+  "id": 3283,
+  "title": "Hack@Brown 2016",
+  "url": "https://hackatbrown2016.devpost.com/",
+  "gallery": "https://hackatbrown2016.devpost.com/project-gallery",
+  "registrations": 254,
+  "dates": "Feb 06 - 07, 2016",
+  "location": "Sayles and Wilson Halls, Brown University"
+ },
+ {
+  "id": 4714,
+  "title": "Hack@Brown 2017",
+  "url": "https://hackatbrown2017.devpost.com/",
+  "gallery": "https://hackatbrown2017.devpost.com/project-gallery",
+  "registrations": 186,
+  "dates": "Feb 05, 2017",
+  "location": "Brown University"
+ },
+ {
+  "id": 5972,
+  "title": "Hack@Brown 2018",
+  "url": "https://hackatbrown2018.devpost.com/",
+  "gallery": "https://hackatbrown2018.devpost.com/project-gallery",
+  "registrations": 189,
+  "dates": "Jan 27 - 28, 2018",
+  "location": "Sayles Hall, Brown University"
+ },
+ {
+  "id": 17162,
+  "title": "Hack@Brown 2023",
+  "url": "https://hackatbrown2023.devpost.com/",
+  "gallery": "https://hackatbrown2023.devpost.com/project-gallery",
+  "registrations": 177,
+  "dates": "Jan 28 - 29, 2023",
+  "location": "Brown University - Sayles Hall"
+ },
+ {
+  "id": 20242,
+  "title": "Hack@Brown 2024",
+  "url": "https://hack-brown-2024.devpost.com/",
+  "gallery": "https://hack-brown-2024.devpost.com/project-gallery",
+  "registrations": 216,
+  "dates": "Feb 03 - 04, 2024",
+  "location": "Brown University"
+ },
+ {
+  "id": 23744,
+  "title": "Hack@Brown 2025",
+  "url": "https://hack-brown-2025.devpost.com/",
+  "gallery": "https://hack-brown-2025.devpost.com/project-gallery",
+  "registrations": 218,
+  "dates": "Feb 01 - 02, 2025",
+  "location": "Providence, RI, USA"
+ },
+ {
+  "id": 28215,
+  "title": "Hack@Brown 2026",
+  "url": "https://hack-brown-2026.devpost.com/",
+  "gallery": "https://hack-brown-2026.devpost.com/project-gallery",
+  "registrations": 217,
+  "dates": "Jan 31 - Feb 01, 2026",
+  "location": "Brown University - Sayles Hall"
+ },
+ {
+  "id": 3144,
+  "title": "HackDuke 2015: Code for Good",
+  "url": "https://hackduke2015.devpost.com/",
+  "gallery": "https://hackduke2015.devpost.com/project-gallery",
+  "registrations": 261,
+  "dates": "Nov 07 - 08, 2015",
+  "location": "Duke University Engineering Quad"
+ },
+ {
+  "id": 4454,
+  "title": "HackDuke 2016: Code for Good",
+  "url": "https://hackduke-2016.devpost.com/",
+  "gallery": "https://hackduke-2016.devpost.com/project-gallery",
+  "registrations": 201,
+  "dates": "Nov 19 - 20, 2016",
+  "location": "Duke University - Engineering Quad"
+ },
+ {
+  "id": 7049,
+  "title": "HackDuke 2018: Code For Good",
+  "url": "https://hackduke-2018.devpost.com/",
+  "gallery": "https://hackduke-2018.devpost.com/project-gallery",
+  "registrations": 244,
+  "dates": "Oct 13 - 19, 2018",
+  "location": "Duke University Engineering Quad - CIEMAS"
+ },
+ {
+  "id": 8720,
+  "title": "HackDuke 2019: Code for Good",
+  "url": "https://hackduke-2019.devpost.com/",
+  "gallery": "https://hackduke-2019.devpost.com/project-gallery",
+  "registrations": 222,
+  "dates": "Nov 02 - 03, 2019",
+  "location": "Duke University Fitzpatrick Center (CIEMAS)"
+ },
+ {
+  "id": 13967,
+  "title": "HackDuke 2021: Code for Good",
+  "url": "https://hackduke-2021-code-for-good.devpost.com/",
+  "gallery": "https://hackduke-2021-code-for-good.devpost.com/project-gallery",
+  "registrations": 291,
+  "dates": "Oct 23 - 24, 2021",
+  "location": "Duke University - CIEMAS "
+ },
+ {
+  "id": 1662,
+  "title": "HackDuke Fall 2014: Code For Good",
+  "url": "https://hackdukefall2014.devpost.com/",
+  "gallery": "https://hackdukefall2014.devpost.com/project-gallery",
+  "registrations": 196,
+  "dates": "Nov 11 - 16, 2014",
+  "location": "Durham, NC, USA"
+ },
+ {
+  "id": 29266,
+  "title": "HackDuke: Code For Good 2026",
+  "url": "https://hackduke-code-for-good-2026.devpost.com/",
+  "gallery": "https://hackduke-code-for-good-2026.devpost.com/project-gallery",
+  "registrations": 151,
+  "dates": "Mar 21 - 22, 2026",
+  "location": "Duke University Fuqua School of Business"
+ },
+ {
+  "id": 16471,
+  "title": "HackDuke: Code for Good 2022",
+  "url": "https://hackduke-code-for-good-2022.devpost.com/",
+  "gallery": "https://hackduke-code-for-good-2022.devpost.com/project-gallery",
+  "registrations": 174,
+  "dates": "Oct 22 - 23, 2022",
+  "location": "Duke University - CIEMAS"
+ },
+ {
+  "id": 23563,
+  "title": "HackDuke: Code for Good 2025",
+  "url": "https://hackduke-code-for-good-2025.devpost.com/",
+  "gallery": "https://hackduke-code-for-good-2025.devpost.com/project-gallery",
+  "registrations": 188,
+  "dates": "Feb 08 - 09, 2025",
+  "location": " The Fuqua School of Business"
+ },
+ {
+  "id": 1411,
+  "title": "HackGT",
+  "url": "https://hackgt2014.devpost.com/",
+  "gallery": "https://hackgt2014.devpost.com/project-gallery",
+  "registrations": 301,
+  "dates": "Sep 20 - 21, 2014",
+  "location": "Atlanta, GA, USA"
+ },
+ {
+  "id": 30297,
+  "title": "HackGT 13: Seaside Market",
+  "url": "https://hackgt13.devpost.com/",
+  "gallery": "https://hackgt13.devpost.com/project-gallery",
+  "registrations": 821,
+  "dates": "Sep 25 - 27, 2026",
+  "location": "Klaus Advanced Computing Building"
+ },
+ {
+  "id": 4201,
+  "title": "HackGT 2016",
+  "url": "https://hackgt2016.devpost.com/",
+  "gallery": "https://hackgt2016.devpost.com/project-gallery",
+  "registrations": 393,
+  "dates": "Sep 24 - 25, 2016",
+  "location": "Georgia Institute of Technology"
+ },
+ {
+  "id": 5572,
+  "title": "HackGT 2017",
+  "url": "https://hackgt2017.devpost.com/",
+  "gallery": "https://hackgt2017.devpost.com/project-gallery",
+  "registrations": 499,
+  "dates": "Oct 13 - 15, 2017",
+  "location": "Klaus Advanced Computing Building"
+ },
+ {
+  "id": 6856,
+  "title": "HackGT 5: Dare to Venture",
+  "url": "https://hackgt2018.devpost.com/",
+  "gallery": "https://hackgt2018.devpost.com/project-gallery",
+  "registrations": 527,
+  "dates": "Oct 19 - 21, 2018",
+  "location": "Klaus Advanced Computing Building"
+ },
+ {
+  "id": 16608,
+  "title": "HackGT 9",
+  "url": "https://hackgt-9.devpost.com/",
+  "gallery": "https://hackgt-9.devpost.com/project-gallery",
+  "registrations": 612,
+  "dates": "Oct 22 - 23, 2022",
+  "location": "Klaus Advanced Computing Building"
+ },
+ {
+  "id": 19308,
+  "title": "HackGT X: Journal Of Memories",
+  "url": "https://hackgt-x.devpost.com/",
+  "gallery": "https://hackgt-x.devpost.com/project-gallery",
+  "registrations": 655,
+  "dates": "Oct 14 - 15, 2023",
+  "location": "Klaus Advanced Computing Building"
+ },
+ {
+  "id": 3463,
+  "title": "HackISU",
+  "url": "https://hackisu-s16.devpost.com/",
+  "gallery": "https://hackisu-s16.devpost.com/project-gallery",
+  "registrations": 159,
+  "dates": "Feb 19 - 21, 2016",
+  "location": "CPMI Event Center"
+ },
+ {
+  "id": 4754,
+  "title": "HackISU Spring 2017",
+  "url": "https://hackisu-s17.devpost.com/",
+  "gallery": "https://hackisu-s17.devpost.com/project-gallery",
+  "registrations": 224,
+  "dates": "Feb 23 - 26, 2017",
+  "location": "The Applied Technology Hub"
+ },
+ {
+  "id": 5673,
+  "title": "HackISU VIII Fall 2017",
+  "url": "https://hackisu-viii.devpost.com/",
+  "gallery": "https://hackisu-viii.devpost.com/project-gallery",
+  "registrations": 171,
+  "dates": "Oct 21 - 22, 2017",
+  "location": "Vermeer Applied Technology Hub /  ISU Startup Factory"
+ },
+ {
+  "id": 6937,
+  "title": "HackISU X",
+  "url": "https://hackisu-x-fall-2018.devpost.com/",
+  "gallery": "https://hackisu-x-fall-2018.devpost.com/project-gallery",
+  "registrations": 155,
+  "dates": "Oct 19 - 21, 2018",
+  "location": "The Vermeer Applied Technology Hub/ISU Startup Factory"
+ },
+ {
+  "id": 698,
+  "title": "HackMIT",
+  "url": "https://hackmit.devpost.com/",
+  "gallery": "https://hackmit.devpost.com/project-gallery",
+  "registrations": 693,
+  "dates": "Oct 05 - 06, 2013",
+  "location": "Cambridge, Massachusetts, USA"
+ },
+ {
+  "id": 4217,
+  "title": "HackMIT 2016",
+  "url": "https://hackmit-2016.devpost.com/",
+  "gallery": "https://hackmit-2016.devpost.com/project-gallery",
+  "registrations": 399,
+  "dates": "Sep 16 - 18, 2016",
+  "location": "Massachusetts Institute of Technology - Johnson Ice Rink"
+ },
+ {
+  "id": 5504,
+  "title": "HackMIT 2017",
+  "url": "https://hackmit2017.devpost.com/",
+  "gallery": "https://hackmit2017.devpost.com/project-gallery",
+  "registrations": 437,
+  "dates": "Sep 16 - 17, 2017",
+  "location": "Massachusetts Institute of Technology - Johnson Ice Rink"
+ },
+ {
+  "id": 8554,
+  "title": "HackMIT 2019",
+  "url": "https://hackmit-2019.devpost.com/",
+  "gallery": "https://hackmit-2019.devpost.com/project-gallery",
+  "registrations": 588,
+  "dates": "Sep 14 - 15, 2019",
+  "location": "MIT - Johnson Ice Rink"
+ },
+ {
+  "id": 18822,
+  "title": "HackMIT 2023",
+  "url": "https://hack-mit-2023.devpost.com/",
+  "gallery": "https://hack-mit-2023.devpost.com/project-gallery",
+  "registrations": 1071,
+  "dates": "Sep 16 - 17, 2023",
+  "location": "MIT Johnson Ice Rink"
+ },
+ {
+  "id": 4384,
+  "title": "HackNC",
+  "url": "https://hacknc-2016.devpost.com/",
+  "gallery": "https://hacknc-2016.devpost.com/project-gallery",
+  "registrations": 213,
+  "dates": "Oct 28 - 30, 2016",
+  "location": "The University of North Carolina at Chapel Hill - Fetzer Hall"
+ },
+ {
+  "id": 5747,
+  "title": "HackNC 2017",
+  "url": "https://hacknc2017.devpost.com/",
+  "gallery": "https://hacknc2017.devpost.com/project-gallery",
+  "registrations": 171,
+  "dates": "Nov 04 - 07, 2017",
+  "location": "University of North Carolina at Chapel Hill - Woollen Gym"
+ },
+ {
+  "id": 8662,
+  "title": "HackNC 2019",
+  "url": "https://hacknc2019.devpost.com/",
+  "gallery": "https://hacknc2019.devpost.com/project-gallery",
+  "registrations": 249,
+  "dates": "Oct 12 - 13, 2019",
+  "location": "Woollen Gym"
+ },
+ {
+  "id": 16560,
+  "title": "HackNC 2022",
+  "url": "https://hacknc-2022.devpost.com/",
+  "gallery": "https://hacknc-2022.devpost.com/project-gallery",
+  "registrations": 266,
+  "dates": "Nov 04 - 06, 2022",
+  "location": "UNC Chapel Hill - Woolen Gymnasium"
+ },
+ {
+  "id": 18959,
+  "title": "HackNC 2023",
+  "url": "https://hacknc-2023.devpost.com/",
+  "gallery": "https://hacknc-2023.devpost.com/project-gallery",
+  "registrations": 305,
+  "dates": "Oct 28 - 29, 2023",
+  "location": "Fetzer Gym"
+ },
+ {
+  "id": 22494,
+  "title": "HackNC 2024",
+  "url": "https://hacknc-2024.devpost.com/",
+  "gallery": "https://hacknc-2024.devpost.com/project-gallery",
+  "registrations": 335,
+  "dates": "Nov 02 - 03, 2024",
+  "location": "Fetzer Gym"
+ },
+ {
+  "id": 25566,
+  "title": "HackNC 2025",
+  "url": "https://hacknc-2025.devpost.com/",
+  "gallery": "https://hacknc-2025.devpost.com/project-gallery",
+  "registrations": 471,
+  "dates": "Oct 11 - 12, 2025",
+  "location": "Fetzer Gym @ UNC-Chapel Hill"
+ },
+ {
+  "id": 3018,
+  "title": "HackNC-fall2015",
+  "url": "https://hacknc.devpost.com/",
+  "gallery": "https://hacknc.devpost.com/project-gallery",
+  "registrations": 187,
+  "dates": "Oct 10 - 11, 2015",
+  "location": "Sitterson Hall at the University of North Carolina at Chapel Hill"
+ },
+ {
+  "id": 4768,
+  "title": "HackNYU 2017",
+  "url": "https://hacknyu2017.devpost.com/",
+  "gallery": "https://hacknyu2017.devpost.com/project-gallery",
+  "registrations": 281,
+  "dates": "Feb 17 - 19, 2017",
+  "location": "New York University | Tandon School of Engineering | Abu Dhabi | Shanghai"
+ },
+ {
+  "id": 6309,
+  "title": "HackNYU 2018",
+  "url": "https://hacknyu2018.devpost.com/",
+  "gallery": "https://hacknyu2018.devpost.com/project-gallery",
+  "registrations": 276,
+  "dates": "Mar 23 - 25, 2018",
+  "location": "New York, Abu Dhabi, Shanghai"
+ },
+ {
+  "id": 7516,
+  "title": "HackNYU 2019",
+  "url": "https://hacknyu2019.devpost.com/",
+  "gallery": "https://hacknyu2019.devpost.com/project-gallery",
+  "registrations": 344,
+  "dates": "Feb 17, 2019",
+  "location": "NYU Tandon"
+ },
+ {
+  "id": 9592,
+  "title": "HackNYU 2020",
+  "url": "https://hacknyu-2020.devpost.com/",
+  "gallery": "https://hacknyu-2020.devpost.com/project-gallery",
+  "registrations": 184,
+  "dates": "Mar 06 - 08, 2020",
+  "location": "New York University Tandon School of Engineering"
+ },
+ {
+  "id": 17293,
+  "title": "HackNYU 2023",
+  "url": "https://hacknyu-2023.devpost.com/",
+  "gallery": "https://hacknyu-2023.devpost.com/project-gallery",
+  "registrations": 255,
+  "dates": "Feb 18 - 19, 2023",
+  "location": "Brooklyn, NY, USA"
+ },
+ {
+  "id": 23433,
+  "title": "HackNYU 2025",
+  "url": "https://hacknyu-2025.devpost.com/",
+  "gallery": "https://hacknyu-2025.devpost.com/project-gallery",
+  "registrations": 642,
+  "dates": "Feb 08 - 09, 2025",
+  "location": "Brooklyn, NY, USA"
+ },
+ {
+  "id": 27444,
+  "title": "HackNYU Fall 2025",
+  "url": "https://hacknyu-fall-2025.devpost.com/",
+  "gallery": "https://hacknyu-fall-2025.devpost.com/project-gallery",
+  "registrations": 193,
+  "dates": "Nov 15 - 16, 2025",
+  "location": "New York University - Tandon Gym"
+ },
+ {
+  "id": 7062,
+  "title": "HackPSU Fall 2018",
+  "url": "https://hackpsu-fall-2018.devpost.com/",
+  "gallery": "https://hackpsu-fall-2018.devpost.com/project-gallery",
+  "registrations": 202,
+  "dates": "Oct 06 - 07, 2018",
+  "location": "Penn State University - Business Building"
+ },
+ {
+  "id": 8849,
+  "title": "HackPSU Fall 2019",
+  "url": "https://hackpsu-fall-2019.devpost.com/",
+  "gallery": "https://hackpsu-fall-2019.devpost.com/project-gallery",
+  "registrations": 157,
+  "dates": "Nov 02 - 03, 2019",
+  "location": "University Park - Business Building"
+ },
+ {
+  "id": 19392,
+  "title": "HackPSU Fall 2023",
+  "url": "https://hackpsu-fall-2023.devpost.com/",
+  "gallery": "https://hackpsu-fall-2023.devpost.com/project-gallery",
+  "registrations": 150,
+  "dates": "Oct 21 - 22, 2023",
+  "location": "Business Building"
+ },
+ {
+  "id": 22495,
+  "title": "HackPSU Fall 2024",
+  "url": "https://hackpsu-fall-2024.devpost.com/",
+  "gallery": "https://hackpsu-fall-2024.devpost.com/project-gallery",
+  "registrations": 251,
+  "dates": "Oct 12 - 13, 2024",
+  "location": "Business Building"
+ },
+ {
+  "id": 26886,
+  "title": "HackPSU Fall 2025",
+  "url": "https://hackpsu-fall-2025.devpost.com/",
+  "gallery": "https://hackpsu-fall-2025.devpost.com/project-gallery",
+  "registrations": 271,
+  "dates": "Oct 25 - 26, 2025",
+  "location": "ECoRE Building "
+ },
+ {
+  "id": 6422,
+  "title": "HackPSU Spring 2018",
+  "url": "https://hackpsu-s2018.devpost.com/",
+  "gallery": "https://hackpsu-s2018.devpost.com/project-gallery",
+  "registrations": 156,
+  "dates": "Apr 07 - 08, 2018",
+  "location": "Business Building, Penn State Univeristy"
+ },
+ {
+  "id": 24390,
+  "title": "HackPSU Spring 2025",
+  "url": "https://hackpsu-spring-2025.devpost.com/",
+  "gallery": "https://hackpsu-spring-2025.devpost.com/project-gallery",
+  "registrations": 261,
+  "dates": "Mar 29 - 30, 2025",
+  "location": "Business Building"
+ },
+ {
+  "id": 27952,
+  "title": "HackPSU Spring 2026",
+  "url": "https://hackpsu-spring-2026.devpost.com/",
+  "gallery": "https://hackpsu-spring-2026.devpost.com/project-gallery",
+  "registrations": 251,
+  "dates": "Mar 28 - 29, 2026",
+  "location": "ECoRE Building"
+ },
+ {
+  "id": 3171,
+  "title": "HackPrinceton Fall 2015",
+  "url": "https://hackprincetonf2015.devpost.com/",
+  "gallery": "https://hackprincetonf2015.devpost.com/project-gallery",
+  "registrations": 201,
+  "dates": "Nov 13 - 15, 2015",
+  "location": "Princeton University - Friend Center"
+ },
+ {
+  "id": 4329,
+  "title": "HackPrinceton Fall 2016",
+  "url": "https://hackprinceton-fall16.devpost.com/",
+  "gallery": "https://hackprinceton-fall16.devpost.com/project-gallery",
+  "registrations": 280,
+  "dates": "Nov 11 - 13, 2016",
+  "location": "Princeton University - Friend Center"
+ },
+ {
+  "id": 5756,
+  "title": "HackPrinceton Fall 2017",
+  "url": "https://hackprinceton-fall17.devpost.com/",
+  "gallery": "https://hackprinceton-fall17.devpost.com/project-gallery",
+  "registrations": 322,
+  "dates": "Nov 10 - 12, 2017",
+  "location": "Princeton University - Friend Center and Engineering Quadrangle"
+ },
+ {
+  "id": 7147,
+  "title": "HackPrinceton Fall 2018",
+  "url": "https://hackprinceton-f18.devpost.com/",
+  "gallery": "https://hackprinceton-f18.devpost.com/project-gallery",
+  "registrations": 211,
+  "dates": "Nov 09 - 11, 2018",
+  "location": "Princeton University - Friend Center"
+ },
+ {
+  "id": 8793,
+  "title": "HackPrinceton Fall 2019",
+  "url": "https://hackprinceton-f19.devpost.com/",
+  "gallery": "https://hackprinceton-f19.devpost.com/project-gallery",
+  "registrations": 181,
+  "dates": "Nov 08 - 10, 2019",
+  "location": "Friend Center"
+ },
+ {
+  "id": 27101,
+  "title": "HackPrinceton Fall 2025",
+  "url": "https://hackprinceton-fall-2025.devpost.com/",
+  "gallery": "https://hackprinceton-fall-2025.devpost.com/project-gallery",
+  "registrations": 596,
+  "dates": "Nov 07 - 09, 2025",
+  "location": "Princeton University - Friend Center"
+ },
+ {
+  "id": 29615,
+  "title": "HackPrinceton Spring '26",
+  "url": "https://hackprinceton-spring-26.devpost.com/",
+  "gallery": "https://hackprinceton-spring-26.devpost.com/project-gallery",
+  "registrations": 411,
+  "dates": "Apr 17 - 19, 2026",
+  "location": "Princeton University - JRR and LAS"
+ },
+ {
+  "id": 931,
+  "title": "HackPrinceton Spring 2014",
+  "url": "https://hackprincetons2014.devpost.com/",
+  "gallery": "https://hackprincetons2014.devpost.com/project-gallery",
+  "registrations": 221,
+  "dates": "Mar 28 - 30, 2014",
+  "location": "Princeton, New Jersey, USA"
+ },
+ {
+  "id": 3618,
+  "title": "HackPrinceton Spring 2016",
+  "url": "https://hackprincetons2016.devpost.com/",
+  "gallery": "https://hackprincetons2016.devpost.com/project-gallery",
+  "registrations": 237,
+  "dates": "Apr 01 - 03, 2016",
+  "location": "Princeton University - Friend Center"
+ },
+ {
+  "id": 4970,
+  "title": "HackPrinceton Spring 2017",
+  "url": "https://hackprinceton-spr17.devpost.com/",
+  "gallery": "https://hackprinceton-spr17.devpost.com/project-gallery",
+  "registrations": 186,
+  "dates": "Mar 31 - Apr 02, 2017",
+  "location": "Princeton University"
+ },
+ {
+  "id": 6341,
+  "title": "HackPrinceton Spring 2018",
+  "url": "https://hackprinceton-spr18.devpost.com/",
+  "gallery": "https://hackprinceton-spr18.devpost.com/project-gallery",
+  "registrations": 194,
+  "dates": "Mar 30 - Apr 01, 2018",
+  "location": "Princeton University - Friend Center and Engineering Quadrangle"
+ },
+ {
+  "id": 17869,
+  "title": "HackPrinceton Spring 2023",
+  "url": "https://hackprinceton-spring-2023.devpost.com/",
+  "gallery": "https://hackprinceton-spring-2023.devpost.com/project-gallery",
+  "registrations": 225,
+  "dates": "Mar 31 - Apr 02, 2023",
+  "location": "Julis Romo Rabinowitz Building"
+ },
+ {
+  "id": 20984,
+  "title": "HackPrinceton Spring 2024",
+  "url": "https://hackprinceton-spring-2024.devpost.com/",
+  "gallery": "https://hackprinceton-spring-2024.devpost.com/project-gallery",
+  "registrations": 155,
+  "dates": "Mar 29 - 31, 2024",
+  "location": "Princeton University - Robertson Hall"
+ },
+ {
+  "id": 24143,
+  "title": "HackPrinceton Spring 2025",
+  "url": "https://hackprinceton-spring-2025.devpost.com/",
+  "gallery": "https://hackprinceton-spring-2025.devpost.com/project-gallery",
+  "registrations": 264,
+  "dates": "Mar 28 - 30, 2025",
+  "location": "Princeton University - Friend Center"
+ },
+ {
+  "id": 1622,
+  "title": "HackPrinceton, Fall 2014",
+  "url": "https://hackprincetonf2014.devpost.com/",
+  "gallery": "https://hackprincetonf2014.devpost.com/project-gallery",
+  "registrations": 187,
+  "dates": "Nov 14 - 16, 2014",
+  "location": "Princeton, NJ, USA"
+ },
+ {
+  "id": 2972,
+  "title": "HackRU Fall 2015",
+  "url": "https://hackruf15.devpost.com/",
+  "gallery": "https://hackruf15.devpost.com/project-gallery",
+  "registrations": 165,
+  "dates": "Oct 03 - 04, 2015",
+  "location": "College Ave Student Center"
+ },
+ {
+  "id": 7095,
+  "title": "HackRU Fall 2018",
+  "url": "https://hackru-f18.devpost.com/",
+  "gallery": "https://hackru-f18.devpost.com/project-gallery",
+  "registrations": 159,
+  "dates": "Oct 06 - 07, 2018",
+  "location": "Rutgers Student Center"
+ },
+ {
+  "id": 8787,
+  "title": "HackRU Fall 2019",
+  "url": "https://hackru-f19.devpost.com/",
+  "gallery": "https://hackru-f19.devpost.com/project-gallery",
+  "registrations": 279,
+  "dates": "Oct 19 - 20, 2019",
+  "location": "College Avenue Student Center"
+ },
+ {
+  "id": 19072,
+  "title": "HackRU Fall 2023",
+  "url": "https://hackru-f23.devpost.com/",
+  "gallery": "https://hackru-f23.devpost.com/project-gallery",
+  "registrations": 305,
+  "dates": "Oct 07 - 08, 2023",
+  "location": "College Avenue Student Center"
+ },
+ {
+  "id": 22831,
+  "title": "HackRU Fall 2024",
+  "url": "https://hackru-fall-2024.devpost.com/",
+  "gallery": "https://hackru-fall-2024.devpost.com/project-gallery",
+  "registrations": 403,
+  "dates": "Oct 26 - 27, 2024",
+  "location": "College Avenue Student Center"
+ },
+ {
+  "id": 26385,
+  "title": "HackRU Fall 2025",
+  "url": "https://hackru-fall-2025.devpost.com/",
+  "gallery": "https://hackru-fall-2025.devpost.com/project-gallery",
+  "registrations": 454,
+  "dates": "Oct 04 - 05, 2025",
+  "location": "College Avenue Student Center"
+ },
+ {
+  "id": 3568,
+  "title": "HackRU Spring 2016",
+  "url": "https://hackru-s16.devpost.com/",
+  "gallery": "https://hackru-s16.devpost.com/project-gallery",
+  "registrations": 252,
+  "dates": "Apr 16 - 17, 2016",
+  "location": "Rutgers University New Brunswick - Rutgers Athletic Center"
+ },
+ {
+  "id": 7693,
+  "title": "HackRU Spring 2019",
+  "url": "https://hackru-s19.devpost.com/",
+  "gallery": "https://hackru-s19.devpost.com/project-gallery",
+  "registrations": 193,
+  "dates": "Mar 09 - 10, 2019",
+  "location": "Rutgers Student Center"
+ },
+ {
+  "id": 20915,
+  "title": "HackRU Spring 2024",
+  "url": "https://hackru-spring-2024.devpost.com/",
+  "gallery": "https://hackru-spring-2024.devpost.com/project-gallery",
+  "registrations": 297,
+  "dates": "Mar 23 - 24, 2024",
+  "location": "Busch Student Center"
+ },
+ {
+  "id": 13180,
+  "title": "HackRice 11",
+  "url": "https://hackrice-11.devpost.com/",
+  "gallery": "https://hackrice-11.devpost.com/project-gallery",
+  "registrations": 243,
+  "dates": "Sep 17 - 19, 2021",
+  "location": "Rice Memorial Center"
+ },
+ {
+  "id": 26614,
+  "title": "HackRice 15",
+  "url": "https://hackrice-15.devpost.com/",
+  "gallery": "https://hackrice-15.devpost.com/project-gallery",
+  "registrations": 299,
+  "dates": "Sep 19 - 21, 2025",
+  "location": "Rice University Memorial Center "
+ },
+ {
+  "id": 30763,
+  "title": "HackRice 16",
+  "url": "https://hackrice-16.devpost.com/",
+  "gallery": "https://hackrice-16.devpost.com/project-gallery",
+  "registrations": 365,
+  "dates": "Sep 11 - 13, 2026",
+  "location": "Rice Memorial Center"
+ },
+ {
+  "id": 3301,
+  "title": "HackRice 2016",
+  "url": "https://hackrice-2016.devpost.com/",
+  "gallery": "https://hackrice-2016.devpost.com/project-gallery",
+  "registrations": 209,
+  "dates": "Jan 15 - 17, 2016",
+  "location": "Rice University"
+ },
+ {
+  "id": 5537,
+  "title": "HackRice 7",
+  "url": "https://hackrice-7.devpost.com/",
+  "gallery": "https://hackrice-7.devpost.com/project-gallery",
+  "registrations": 177,
+  "dates": "Sep 22 - 24, 2017",
+  "location": "Rice University Student Center"
+ },
+ {
+  "id": 7683,
+  "title": "HackSC 2019",
+  "url": "https://hacksc2019.devpost.com/",
+  "gallery": "https://hacksc2019.devpost.com/project-gallery",
+  "registrations": 353,
+  "dates": "Apr 13 - 14, 2019",
+  "location": "Downtown Los Angeles"
+ },
+ {
+  "id": 9063,
+  "title": "HackSC 2020",
+  "url": "https://hacksc-2020.devpost.com/",
+  "gallery": "https://hacksc-2020.devpost.com/project-gallery",
+  "registrations": 438,
+  "dates": "Jan 31 - Feb 02, 2020",
+  "location": "University of Southern California"
+ },
+ {
+  "id": 17370,
+  "title": "HackSC 2023",
+  "url": "https://hacksc-2023.devpost.com/",
+  "gallery": "https://hacksc-2023.devpost.com/project-gallery",
+  "registrations": 211,
+  "dates": "Feb 02 - 05, 2023",
+  "location": "Tutor Campus Center "
+ },
+ {
+  "id": 1633,
+  "title": "HackSC Fall 2014",
+  "url": "https://hackscfall2014.devpost.com/",
+  "gallery": "https://hackscfall2014.devpost.com/project-gallery",
+  "registrations": 250,
+  "dates": "Nov 07 - 09, 2014",
+  "location": "Los Angeles, CA, USA"
+ },
+ {
+  "id": 19168,
+  "title": "HackSMU V",
+  "url": "https://hacksmu-v.devpost.com/",
+  "gallery": "https://hacksmu-v.devpost.com/project-gallery",
+  "registrations": 173,
+  "dates": "Sep 16 - 17, 2023",
+  "location": "Hughes-Trigg Student Center - SMU"
+ },
+ {
+  "id": 29522,
+  "title": "HackSMU VII",
+  "url": "https://hacksmu-vii.devpost.com/",
+  "gallery": "https://hacksmu-vii.devpost.com/project-gallery",
+  "registrations": 200,
+  "dates": "Apr 11 - 12, 2026",
+  "location": "Hughes-Trigg Student Center"
+ },
+ {
+  "id": 5627,
+  "title": "HackTX 2017",
+  "url": "https://hacktx17.devpost.com/",
+  "gallery": "https://hacktx17.devpost.com/project-gallery",
+  "registrations": 275,
+  "dates": "Oct 28 - 29, 2017",
+  "location": "Omni Austin Hotel Downtown"
+ },
+ {
+  "id": 7060,
+  "title": "HackTX 2018",
+  "url": "https://hacktx18.devpost.com/",
+  "gallery": "https://hacktx18.devpost.com/project-gallery",
+  "registrations": 294,
+  "dates": "Oct 20 - 21, 2018",
+  "location": "University of Texas at Austin - AT&T Center"
+ },
+ {
+  "id": 8880,
+  "title": "HackTX 2019",
+  "url": "https://hacktx19.devpost.com/",
+  "gallery": "https://hacktx19.devpost.com/project-gallery",
+  "registrations": 307,
+  "dates": "Nov 02 - 03, 2019",
+  "location": "AT&T Executive Education & Conference Center"
+ },
+ {
+  "id": 14068,
+  "title": "HackTX 2021",
+  "url": "https://hacktx-2021.devpost.com/",
+  "gallery": "https://hacktx-2021.devpost.com/project-gallery",
+  "registrations": 232,
+  "dates": "Oct 30 - 31, 2021",
+  "location": "University of Texas at Austin, GDC"
+ },
+ {
+  "id": 16412,
+  "title": "HackTX 2022",
+  "url": "https://hacktx-2022.devpost.com/",
+  "gallery": "https://hacktx-2022.devpost.com/project-gallery",
+  "registrations": 386,
+  "dates": "Oct 15 - 16, 2022",
+  "location": "University of Texas \u2014 Gates Dell Complex"
+ },
+ {
+  "id": 19337,
+  "title": "HackTX 2023",
+  "url": "https://hacktx-2023.devpost.com/",
+  "gallery": "https://hacktx-2023.devpost.com/project-gallery",
+  "registrations": 619,
+  "dates": "Oct 20 - 22, 2023",
+  "location": "University of Texas at Austin"
+ },
+ {
+  "id": 21938,
+  "title": "HackTX 2024",
+  "url": "https://hacktx-2024.devpost.com/",
+  "gallery": "https://hacktx-2024.devpost.com/project-gallery",
+  "registrations": 542,
+  "dates": "Nov 02 - 03, 2024",
+  "location": "University of Texas at Austin"
+ },
+ {
+  "id": 26652,
+  "title": "HackTX 2025",
+  "url": "https://hacktx2025.devpost.com/",
+  "gallery": "https://hacktx2025.devpost.com/project-gallery",
+  "registrations": 728,
+  "dates": "Oct 18 - 19, 2025",
+  "location": "University of Texas at Austin"
+ },
+ {
+  "id": 6088,
+  "title": "HackUCI 2018",
+  "url": "https://hackuci2018.devpost.com/",
+  "gallery": "https://hackuci2018.devpost.com/project-gallery",
+  "registrations": 238,
+  "dates": "Feb 02 - 04, 2018",
+  "location": "UC Irvine Student Center"
+ },
+ {
+  "id": 7649,
+  "title": "HackUCI 2019",
+  "url": "https://hackuci2019.devpost.com/",
+  "gallery": "https://hackuci2019.devpost.com/project-gallery",
+  "registrations": 263,
+  "dates": "Feb 16 - 17, 2019",
+  "location": "University of California - Irvine, Student Center"
+ },
+ {
+  "id": 9220,
+  "title": "HackUCI 2020",
+  "url": "https://hackuci2020.devpost.com/",
+  "gallery": "https://hackuci2020.devpost.com/project-gallery",
+  "registrations": 337,
+  "dates": "Feb 01 - 02, 2020",
+  "location": "UC Irvine Student Center"
+ },
+ {
+  "id": 4269,
+  "title": "HackUMBC Fall 2016",
+  "url": "https://hackumbcf16.devpost.com/",
+  "gallery": "https://hackumbcf16.devpost.com/project-gallery",
+  "registrations": 181,
+  "dates": "Oct 01 - 02, 2016",
+  "location": "University of Maryland, Baltimore County"
+ },
+ {
+  "id": 7630,
+  "title": "HackUTD 2019",
+  "url": "https://hackutd2019.devpost.com/",
+  "gallery": "https://hackutd2019.devpost.com/project-gallery",
+  "registrations": 305,
+  "dates": "Feb 23 - 24, 2019",
+  "location": "University of Texas at Dallas - ECSW"
+ },
+ {
+  "id": 22819,
+  "title": "HackUTD 2024: Ripple Effect",
+  "url": "https://hackutd-ripple.devpost.com/",
+  "gallery": "https://hackutd-ripple.devpost.com/project-gallery",
+  "registrations": 1035,
+  "dates": "Nov 16 - 17, 2024",
+  "location": "ECSW @ UT Dallas"
+ },
+ {
+  "id": 26959,
+  "title": "HackUTD 2025: Lost in the Pages",
+  "url": "https://hackutd-2025.devpost.com/",
+  "gallery": "https://hackutd-2025.devpost.com/project-gallery",
+  "registrations": 1151,
+  "dates": "Nov 08 - 09, 2025",
+  "location": "University of Texas at Dallas - ECSW"
+ },
+ {
+  "id": 16723,
+  "title": "HackUTD IX ",
+  "url": "https://hackutd-ix.devpost.com/",
+  "gallery": "https://hackutd-ix.devpost.com/project-gallery",
+  "registrations": 680,
+  "dates": "Nov 12 - 13, 2022",
+  "location": "ECSW @ UT Dallas"
+ },
+ {
+  "id": 8785,
+  "title": "HackUTD VI",
+  "url": "https://hackutd-vi.devpost.com/",
+  "gallery": "https://hackutd-vi.devpost.com/project-gallery",
+  "registrations": 346,
+  "dates": "Nov 09 - 10, 2019",
+  "location": "University of Texas at Dallas - ECSW"
+ },
+ {
+  "id": 14180,
+  "title": "HackUTD VIII",
+  "url": "https://hackutd-viii.devpost.com/",
+  "gallery": "https://hackutd-viii.devpost.com/project-gallery",
+  "registrations": 458,
+  "dates": "Nov 14, 2021",
+  "location": "Dallas, TX"
+ },
+ {
+  "id": 19418,
+  "title": "HackUTD X",
+  "url": "https://hackutd-x.devpost.com/",
+  "gallery": "https://hackutd-x.devpost.com/project-gallery",
+  "registrations": 875,
+  "dates": "Nov 04 - 05, 2023",
+  "location": "ECSW @ UT Dallas"
+ },
+ {
+  "id": 17322,
+  "title": "HackViolet",
+  "url": "https://hackviolet2023.devpost.com/",
+  "gallery": "https://hackviolet2023.devpost.com/project-gallery",
+  "registrations": 252,
+  "dates": "Feb 04 - 05, 2023",
+  "location": "Virginia Tech - Squires Student Center"
+ },
+ {
+  "id": 20188,
+  "title": "HackViolet",
+  "url": "https://hackviolet2024.devpost.com/",
+  "gallery": "https://hackviolet2024.devpost.com/project-gallery",
+  "registrations": 223,
+  "dates": "Feb 03 - 04, 2024",
+  "location": "Squires Student Center"
+ },
+ {
+  "id": 11725,
+  "title": "Hacklytics 2021",
+  "url": "https://hacklytics2021.devpost.com/",
+  "gallery": "https://hacklytics2021.devpost.com/project-gallery",
+  "registrations": 246,
+  "dates": "Feb 05 - 07, 2021",
+  "location": "Atlanta, GA, USA"
+ },
+ {
+  "id": 17413,
+  "title": "Hacklytics 2023: A Starry Night",
+  "url": "https://hacklytics23.devpost.com/",
+  "gallery": "https://hacklytics23.devpost.com/project-gallery",
+  "registrations": 280,
+  "dates": "Feb 10 - 12, 2023",
+  "location": "Klaus Advanced Computing Building"
+ },
+ {
+  "id": 23998,
+  "title": "Hacklytics 2025: Jurassic Age",
+  "url": "https://hacklytics2025.devpost.com/",
+  "gallery": "https://hacklytics2025.devpost.com/project-gallery",
+  "registrations": 767,
+  "dates": "Feb 22 - 23, 2025",
+  "location": "Klaus Advanced Computing Building"
+ },
+ {
+  "id": 28104,
+  "title": "Hacklytics 2026: Golden Byte",
+  "url": "https://hacklytics-2026.devpost.com/",
+  "gallery": "https://hacklytics-2026.devpost.com/project-gallery",
+  "registrations": 729,
+  "dates": "Feb 20 - 22, 2026",
+  "location": "Klaus Advanced Computing Building"
+ },
+ {
+  "id": 7696,
+  "title": "Knight Hacks 2019",
+  "url": "https://knight-hacks-2019.devpost.com/",
+  "gallery": "https://knight-hacks-2019.devpost.com/project-gallery",
+  "registrations": 192,
+  "dates": "Mar 01 - 03, 2019",
+  "location": "Engineering 2 & Business Administration I, University of Central Florida"
+ },
+ {
+  "id": 19133,
+  "title": "Knight Hacks VI",
+  "url": "https://knight-hacks-vi.devpost.com/",
+  "gallery": "https://knight-hacks-vi.devpost.com/project-gallery",
+  "registrations": 323,
+  "dates": "Oct 06 - 08, 2023",
+  "location": "Engineering II Atrium"
+ },
+ {
+  "id": 25496,
+  "title": "Knight Hacks VIII",
+  "url": "https://knighthacksviii.devpost.com/",
+  "gallery": "https://knighthacksviii.devpost.com/project-gallery",
+  "registrations": 638,
+  "dates": "Oct 24 - 26, 2025",
+  "location": "ENG & BA @ UCF"
+ },
+ {
+  "id": 24111,
+  "title": "LA Hacks 2025",
+  "url": "https://la-hacks-2025.devpost.com/",
+  "gallery": "https://la-hacks-2025.devpost.com/project-gallery",
+  "registrations": 583,
+  "dates": "Apr 25 - 27, 2025",
+  "location": " Edwin W. Pauley Pavilion"
+ },
+ {
+  "id": 29106,
+  "title": "LA Hacks 2026",
+  "url": "https://la-hacks-2026.devpost.com/",
+  "gallery": "https://la-hacks-2026.devpost.com/project-gallery",
+  "registrations": 974,
+  "dates": "Apr 24 - 26, 2026",
+  "location": "Pauley Pavilion"
+ },
+ {
+  "id": 651,
+  "title": "MHacks",
+  "url": "https://mhacks.devpost.com/",
+  "gallery": "https://mhacks.devpost.com/project-gallery",
+  "registrations": 610,
+  "dates": "Sep 20 - 22, 2013",
+  "location": "Ann Arbor, Michigan, USA"
+ },
+ {
+  "id": 8461,
+  "title": "MHacks",
+  "url": "https://mhacks12.devpost.com/",
+  "gallery": "https://mhacks12.devpost.com/project-gallery",
+  "registrations": 261,
+  "dates": "Oct 12 - 13, 2019",
+  "location": "IMSB"
+ },
+ {
+  "id": 7031,
+  "title": "MHacks 11",
+  "url": "https://mhacks11.devpost.com/",
+  "gallery": "https://mhacks11.devpost.com/project-gallery",
+  "registrations": 333,
+  "dates": "Oct 13 - 14, 2018",
+  "location": "Intramural Sports Building"
+ },
+ {
+  "id": 19722,
+  "title": "MHacks 16",
+  "url": "https://mhacks-16.devpost.com/",
+  "gallery": "https://mhacks-16.devpost.com/project-gallery",
+  "registrations": 355,
+  "dates": "Nov 18 - 19, 2023",
+  "location": "James and Anne Duderstadt Center"
+ },
+ {
+  "id": 22528,
+  "title": "MHacks 2024",
+  "url": "https://mhacks-2024.devpost.com/",
+  "gallery": "https://mhacks-2024.devpost.com/project-gallery",
+  "registrations": 434,
+  "dates": "Sep 28 - 29, 2024",
+  "location": "James and Anne Duderstadt Center"
+ },
+ {
+  "id": 26466,
+  "title": "MHacks 2025",
+  "url": "https://mhacks-2025.devpost.com/",
+  "gallery": "https://mhacks-2025.devpost.com/project-gallery",
+  "registrations": 379,
+  "dates": "Sep 27 - 28, 2025",
+  "location": "James and Anne Duderstadt Center"
+ },
+ {
+  "id": 31496,
+  "title": "MHacks 2026",
+  "url": "https://mhacks-2026.devpost.com/",
+  "gallery": "https://mhacks-2026.devpost.com/project-gallery",
+  "registrations": 519,
+  "dates": "Oct 03 - 04, 2026",
+  "location": "University of Michigan Duderstadt Center"
+ },
+ {
+  "id": 2861,
+  "title": "MHacks 6",
+  "url": "https://mhacks6.devpost.com/",
+  "gallery": "https://mhacks6.devpost.com/project-gallery",
+  "registrations": 688,
+  "dates": "Sep 11 - 13, 2015",
+  "location": "University of Michigan - North Campus"
+ },
+ {
+  "id": 4192,
+  "title": "MHacks 8",
+  "url": "https://mhacks8.devpost.com/",
+  "gallery": "https://mhacks8.devpost.com/project-gallery",
+  "registrations": 577,
+  "dates": "Oct 08 - 09, 2016",
+  "location": "Detroit Masonic Temple"
+ },
+ {
+  "id": 4873,
+  "title": "MHacks 9",
+  "url": "https://mhacks9.devpost.com/",
+  "gallery": "https://mhacks9.devpost.com/project-gallery",
+  "registrations": 284,
+  "dates": "Mar 25 - 26, 2017",
+  "location": "University of Michigan North Campus"
+ },
+ {
+  "id": 1417,
+  "title": "MHacks IV Fall 2014",
+  "url": "https://mhacks-iv.devpost.com/",
+  "gallery": "https://mhacks-iv.devpost.com/project-gallery",
+  "registrations": 469,
+  "dates": "Sep 05 - 07, 2014",
+  "location": "Ann Arbor, MI, USA"
+ },
+ {
+  "id": 1763,
+  "title": "MHacks V",
+  "url": "https://mhacksv.devpost.com/",
+  "gallery": "https://mhacksv.devpost.com/project-gallery",
+  "registrations": 714,
+  "dates": "Jan 17 - 18, 2015",
+  "location": "Ann Arbor, MI, USA"
+ },
+ {
+  "id": 851,
+  "title": "MHacks Winter 2014",
+  "url": "https://mhackswinter2014.devpost.com/",
+  "gallery": "https://mhackswinter2014.devpost.com/project-gallery",
+  "registrations": 587,
+  "dates": "Jan 19, 2014",
+  "location": "Detroit, MI, USA"
+ },
+ {
+  "id": 5524,
+  "title": "MHacks X",
+  "url": "https://mhacksx.devpost.com/",
+  "gallery": "https://mhacksx.devpost.com/project-gallery",
+  "registrations": 531,
+  "dates": "Sep 22 - 24, 2017",
+  "location": "University of Michigan North Campus"
+ },
+ {
+  "id": 3315,
+  "title": "MHacks: Refactor",
+  "url": "https://mhacksrefactor.devpost.com/",
+  "gallery": "https://mhacksrefactor.devpost.com/project-gallery",
+  "registrations": 364,
+  "dates": "Feb 20 - 21, 2016",
+  "location": "University of Michigan - North Campus"
+ },
+ {
+  "id": 4753,
+  "title": "MadHacks 2017",
+  "url": "https://madhacks-2017.devpost.com/",
+  "gallery": "https://madhacks-2017.devpost.com/project-gallery",
+  "registrations": 189,
+  "dates": "Feb 18 - 19, 2017",
+  "location": "University of Wisconsin"
+ },
+ {
+  "id": 17624,
+  "title": "MadHacks 2023",
+  "url": "https://madhacks-2023.devpost.com/",
+  "gallery": "https://madhacks-2023.devpost.com/project-gallery",
+  "registrations": 170,
+  "dates": "Mar 04 - 05, 2023",
+  "location": "UW-Madison | Educational Sciences"
+ },
+ {
+  "id": 19524,
+  "title": "MadHacks Fall 2023",
+  "url": "https://madhacks-fall-2023.devpost.com/",
+  "gallery": "https://madhacks-fall-2023.devpost.com/project-gallery",
+  "registrations": 193,
+  "dates": "Nov 11 - 12, 2023",
+  "location": "Educational Sciences"
+ },
+ {
+  "id": 22856,
+  "title": "MadHacks Fall 2024",
+  "url": "https://madhacks.devpost.com/",
+  "gallery": "https://madhacks.devpost.com/project-gallery",
+  "registrations": 197,
+  "dates": "Nov 09 - 10, 2024",
+  "location": "Educational Sciences"
+ },
+ {
+  "id": 27322,
+  "title": "MadHacks Fall 2025",
+  "url": "https://madhacks-fall-2025.devpost.com/",
+  "gallery": "https://madhacks-fall-2025.devpost.com/project-gallery",
+  "registrations": 384,
+  "dates": "Nov 22 - 23, 2025",
+  "location": "Morgridge Hall"
+ },
+ {
+  "id": 577,
+  "title": "PennApps",
+  "url": "https://pennapps.devpost.com/",
+  "gallery": "https://pennapps.devpost.com/project-gallery",
+  "registrations": 657,
+  "dates": "Sep 06 - 08, 2013",
+  "location": "Philadelphia, Pennsylvania, USA"
+ },
+ {
+  "id": 889,
+  "title": "PennApps Spring 2014",
+  "url": "https://pennapps2014s.devpost.com/",
+  "gallery": "https://pennapps2014s.devpost.com/project-gallery",
+  "registrations": 589,
+  "dates": "Feb 14 - 16, 2014",
+  "location": "Philadelphia, Pennsylvania, USA"
+ },
+ {
+  "id": 1843,
+  "title": "PennApps Winter 2015",
+  "url": "https://pennapps2015w.devpost.com/",
+  "gallery": "https://pennapps2015w.devpost.com/project-gallery",
+  "registrations": 595,
+  "dates": "Jan 16 - 18, 2015",
+  "location": "Philadelphia, PA, USA"
+ },
+ {
+  "id": 1356,
+  "title": "PennApps X",
+  "url": "https://pennappsx.devpost.com/",
+  "gallery": "https://pennappsx.devpost.com/project-gallery",
+  "registrations": 563,
+  "dates": "Sep 12 - 14, 2014",
+  "location": "Philadelphia, PA, USA"
+ },
+ {
+  "id": 2776,
+  "title": "PennApps XII",
+  "url": "https://pennappsxii.devpost.com/",
+  "gallery": "https://pennappsxii.devpost.com/project-gallery",
+  "registrations": 903,
+  "dates": "Sep 04 - 06, 2015",
+  "location": "Wells Fargo Center"
+ },
+ {
+  "id": 3229,
+  "title": "PennApps XIII",
+  "url": "https://pennapps-xiii.devpost.com/",
+  "gallery": "https://pennapps-xiii.devpost.com/project-gallery",
+  "registrations": 602,
+  "dates": "Jan 22 - 24, 2016",
+  "location": "University of Pennsylvania - Towne Building"
+ },
+ {
+  "id": 3994,
+  "title": "PennApps XIV",
+  "url": "https://pennapps-xiv.devpost.com/",
+  "gallery": "https://pennapps-xiv.devpost.com/project-gallery",
+  "registrations": 675,
+  "dates": "Sep 09 - 11, 2016",
+  "location": "University of Pennsylvania"
+ },
+ {
+  "id": 4565,
+  "title": "PennApps XV",
+  "url": "https://pennapps-xv.devpost.com/",
+  "gallery": "https://pennapps-xv.devpost.com/project-gallery",
+  "registrations": 590,
+  "dates": "Jan 20 - 22, 2017",
+  "location": "University of Pennsylvania"
+ },
+ {
+  "id": 5375,
+  "title": "PennApps XVI",
+  "url": "https://pennapps-xvi.devpost.com/",
+  "gallery": "https://pennapps-xvi.devpost.com/project-gallery",
+  "registrations": 498,
+  "dates": "Sep 08 - 10, 2017",
+  "location": "University of Pennsylvania"
+ },
+ {
+  "id": 5994,
+  "title": "PennApps XVII",
+  "url": "https://pennapps-xvii.devpost.com/",
+  "gallery": "https://pennapps-xvii.devpost.com/project-gallery",
+  "registrations": 521,
+  "dates": "Jan 19 - 21, 2018",
+  "location": "University of Pennsylvania"
+ },
+ {
+  "id": 6922,
+  "title": "PennApps XVIII",
+  "url": "https://pennapps-xviii.devpost.com/",
+  "gallery": "https://pennapps-xviii.devpost.com/project-gallery",
+  "registrations": 557,
+  "dates": "Sep 07 - 09, 2018",
+  "location": "University of Pennsylvania Engineering Quad"
+ },
+ {
+  "id": 8474,
+  "title": "PennApps XX",
+  "url": "https://pennapps-xx.devpost.com/",
+  "gallery": "https://pennapps-xx.devpost.com/project-gallery",
+  "registrations": 759,
+  "dates": "Sep 06 - 08, 2019",
+  "location": "University of Pennsylvania - Towne Building"
+ },
+ {
+  "id": 19039,
+  "title": "PennApps XXIV",
+  "url": "https://pennapps-xxiv.devpost.com/",
+  "gallery": "https://pennapps-xxiv.devpost.com/project-gallery",
+  "registrations": 351,
+  "dates": "Sep 08 - 10, 2023",
+  "location": "University of Pennsylvania\u2014Towne Blding"
+ },
+ {
+  "id": 26635,
+  "title": "PennApps XXVI",
+  "url": "https://pennapps-xxvi.devpost.com/",
+  "gallery": "https://pennapps-xxvi.devpost.com/project-gallery",
+  "registrations": 257,
+  "dates": "Sep 20 - 21, 2025",
+  "location": "UPenn - School of Engineering"
+ },
+ {
+  "id": 1561,
+  "title": "Product Hunt Hackathon",
+  "url": "https://producthunthackathon.devpost.com/",
+  "gallery": "https://producthunthackathon.devpost.com/project-gallery",
+  "registrations": 179,
+  "dates": "Oct 25 - 26, 2014",
+  "location": "Mountain View, CA, USA"
+ },
+ {
+  "id": 30488,
+  "title": "Rowdy Hacks XII",
+  "url": "https://rowdy-hacks-xii.devpost.com/",
+  "gallery": "https://rowdy-hacks-xii.devpost.com/project-gallery",
+  "registrations": 273,
+  "dates": "Oct 01 - 04, 2026",
+  "location": "San Pedro II"
+ },
+ {
+  "id": 15060,
+  "title": "RowdyHacks 2022",
+  "url": "https://rowdyhacks2022.devpost.com/",
+  "gallery": "https://rowdyhacks2022.devpost.com/project-gallery",
+  "registrations": 152,
+  "dates": "Mar 27, 2022",
+  "location": "H-E-B University Center, UTSA"
+ },
+ {
+  "id": 20622,
+  "title": "RowdyHacks 2024",
+  "url": "https://rowdyhacks2024.devpost.com/",
+  "gallery": "https://rowdyhacks2024.devpost.com/project-gallery",
+  "registrations": 260,
+  "dates": "Feb 24 - 25, 2024",
+  "location": "San Pedro 1 - Data Science Building"
+ },
+ {
+  "id": 27176,
+  "title": "RowdyHacks XI",
+  "url": "https://rowdyhacks-xi.devpost.com/",
+  "gallery": "https://rowdyhacks-xi.devpost.com/project-gallery",
+  "registrations": 256,
+  "dates": "Oct 25 - 26, 2025",
+  "location": "UT San Antonio - San Pedro I building"
+ },
+ {
+  "id": 17816,
+  "title": "Rowdyhacks 2023",
+  "url": "https://rowdyhacks2023.devpost.com/",
+  "gallery": "https://rowdyhacks2023.devpost.com/project-gallery",
+  "registrations": 245,
+  "dates": "Mar 25 - 26, 2023",
+  "location": "UTSA - School of Data Science Building"
+ },
+ {
+  "id": 2986,
+  "title": "SD Hacks",
+  "url": "https://sdhacks.devpost.com/",
+  "gallery": "https://sdhacks.devpost.com/project-gallery",
+  "registrations": 207,
+  "dates": "Oct 03 - 04, 2015",
+  "location": "University of California, San Diego"
+ },
+ {
+  "id": 5642,
+  "title": "SD Hacks 2017",
+  "url": "https://sdhacks2017.devpost.com/",
+  "gallery": "https://sdhacks2017.devpost.com/project-gallery",
+  "registrations": 242,
+  "dates": "Oct 21 - 22, 2017",
+  "location": "UCSD - Rimac Arena"
+ },
+ {
+  "id": 8809,
+  "title": "SD Hacks 2019",
+  "url": "https://sd-hacks-2019.devpost.com/",
+  "gallery": "https://sd-hacks-2019.devpost.com/project-gallery",
+  "registrations": 428,
+  "dates": "Oct 25 - 27, 2019",
+  "location": "RIMAC Arena"
+ },
+ {
+  "id": 6750,
+  "title": "SDHacks2018",
+  "url": "https://sdhacks2018.devpost.com/",
+  "gallery": "https://sdhacks2018.devpost.com/project-gallery",
+  "registrations": 323,
+  "dates": "Oct 13 - 14, 2018",
+  "location": "University of California, San Diego (RIMAC)"
+ },
+ {
+  "id": 6954,
+  "title": "ShellHacks 2018",
+  "url": "https://shellhacks-2018.devpost.com/",
+  "gallery": "https://shellhacks-2018.devpost.com/project-gallery",
+  "registrations": 158,
+  "dates": "Sep 14 - 16, 2018",
+  "location": "Florida International University"
+ },
+ {
+  "id": 8621,
+  "title": "ShellHacks 2019",
+  "url": "https://shellhacks-2019.devpost.com/",
+  "gallery": "https://shellhacks-2019.devpost.com/project-gallery",
+  "registrations": 186,
+  "dates": "Sep 21 - 22, 2019",
+  "location": "Florida International University"
+ },
+ {
+  "id": 16248,
+  "title": "ShellHacks 2022",
+  "url": "https://shellhacks2022.devpost.com/",
+  "gallery": "https://shellhacks2022.devpost.com/project-gallery",
+  "registrations": 676,
+  "dates": "Sep 10 - 11, 2022",
+  "location": "FIU - (Kovens Conference Center)"
+ },
+ {
+  "id": 18922,
+  "title": "ShellHacks 2023",
+  "url": "https://shellhacks-2023.devpost.com/",
+  "gallery": "https://shellhacks-2023.devpost.com/project-gallery",
+  "registrations": 798,
+  "dates": "Sep 15 - 17, 2023",
+  "location": "FIU - (Kovens Conference Center)"
+ },
+ {
+  "id": 26550,
+  "title": "ShellHacks 2025",
+  "url": "https://shellhacks2025.devpost.com/",
+  "gallery": "https://shellhacks2025.devpost.com/project-gallery",
+  "registrations": 839,
+  "dates": "Sep 26 - 28, 2025",
+  "location": "Florida International University"
+ },
+ {
+  "id": 31510,
+  "title": "ShellHacks 2026",
+  "url": "https://shellhacks-2026.devpost.com/",
+  "gallery": "https://shellhacks-2026.devpost.com/project-gallery",
+  "registrations": 879,
+  "dates": "Sep 25 - 27, 2026",
+  "location": "Florida International University"
+ },
+ {
+  "id": 22994,
+  "title": "SoCal Tech Week 2024",
+  "url": "https://socal-tech-week-2024.devpost.com/",
+  "gallery": "https://socal-tech-week-2024.devpost.com/project-gallery",
+  "registrations": 183,
+  "dates": "Nov 09 - 10, 2024",
+  "location": "Ronald Tutor Campus Center"
+ },
+ {
+  "id": 3246,
+  "title": "SwampHacks 2016",
+  "url": "https://swamphacks2016.devpost.com/",
+  "gallery": "https://swamphacks2016.devpost.com/project-gallery",
+  "registrations": 204,
+  "dates": "Jan 23 - 24, 2016",
+  "location": "University of Florida - Marston Science Library"
+ },
+ {
+  "id": 4645,
+  "title": "SwampHacks 2017",
+  "url": "https://swamphacks2017.devpost.com/",
+  "gallery": "https://swamphacks2017.devpost.com/project-gallery",
+  "registrations": 207,
+  "dates": "Jan 21 - 22, 2017",
+  "location": "University of Florida"
+ },
+ {
+  "id": 7514,
+  "title": "SwampHacks V",
+  "url": "https://swamphacks-v.devpost.com/",
+  "gallery": "https://swamphacks-v.devpost.com/project-gallery",
+  "registrations": 239,
+  "dates": "Jan 18 - 20, 2019",
+  "location": "Gainesville, FL"
+ },
+ {
+  "id": 9326,
+  "title": "SwampHacks VI",
+  "url": "https://swamphacks-vi.devpost.com/",
+  "gallery": "https://swamphacks-vi.devpost.com/project-gallery",
+  "registrations": 338,
+  "dates": "Jan 31 - Feb 02, 2020",
+  "location": "Marston Science Library"
+ },
+ {
+  "id": 26854,
+  "title": "SwampHacks XI",
+  "url": "https://swamphacks-xi.devpost.com/",
+  "gallery": "https://swamphacks-xi.devpost.com/project-gallery",
+  "registrations": 411,
+  "dates": "Jan 23 - 25, 2026",
+  "location": "University of Florida \u2012 Newell Hall"
+ },
+ {
+  "id": 17144,
+  "title": "Swamphacks IX",
+  "url": "https://swamphacks-ix.devpost.com/",
+  "gallery": "https://swamphacks-ix.devpost.com/project-gallery",
+  "registrations": 299,
+  "dates": "Jan 27 - 29, 2023",
+  "location": "University of Florida"
+ },
+ {
+  "id": 5739,
+  "title": "Technica 2017",
+  "url": "https://technica2017.devpost.com/",
+  "gallery": "https://technica2017.devpost.com/project-gallery",
+  "registrations": 208,
+  "dates": "Nov 04 - 05, 2017",
+  "location": "University of Maryland - College Park, Reckord Armory (Building)"
+ },
+ {
+  "id": 8830,
+  "title": "Technica 2019",
+  "url": "https://technica2019.devpost.com/",
+  "gallery": "https://technica2019.devpost.com/project-gallery",
+  "registrations": 378,
+  "dates": "Nov 09 - 10, 2019",
+  "location": "Reckord Armory, UMD"
+ },
+ {
+  "id": 15733,
+  "title": "Technica 2022",
+  "url": "https://technica2022.devpost.com/",
+  "gallery": "https://technica2022.devpost.com/project-gallery",
+  "registrations": 504,
+  "dates": "Oct 15 - 16, 2022",
+  "location": "The Hotel at the University of Maryland"
+ },
+ {
+  "id": 19143,
+  "title": "Technica 2023",
+  "url": "https://technica-2023.devpost.com/",
+  "gallery": "https://technica-2023.devpost.com/project-gallery",
+  "registrations": 497,
+  "dates": "Oct 09 - 22, 2023",
+  "location": "College Park, MD, USA"
+ },
+ {
+  "id": 7212,
+  "title": "Technica Fall 2018",
+  "url": "https://technica2018.devpost.com/",
+  "gallery": "https://technica2018.devpost.com/project-gallery",
+  "registrations": 265,
+  "dates": "Nov 10 - 11, 2018",
+  "location": "Reckord Armory, UMD"
+ },
+ {
+  "id": 3429,
+  "title": "TreeHacks 2016",
+  "url": "https://treehacks-2016.devpost.com/",
+  "gallery": "https://treehacks-2016.devpost.com/project-gallery",
+  "registrations": 254,
+  "dates": "Feb 13 - 14, 2016",
+  "location": "Stanford University - Jen-Hsun Huang Engineering Center"
+ },
+ {
+  "id": 4574,
+  "title": "TreeHacks 2017",
+  "url": "https://treehacks-2017.devpost.com/",
+  "gallery": "https://treehacks-2017.devpost.com/project-gallery",
+  "registrations": 373,
+  "dates": "Feb 18 - 19, 2017",
+  "location": "Huang Engineering Building - Stanford University"
+ },
+ {
+  "id": 6916,
+  "title": "TreeHacks 2019",
+  "url": "https://treehacks-2019.devpost.com/",
+  "gallery": "https://treehacks-2019.devpost.com/project-gallery",
+  "registrations": 563,
+  "dates": "Feb 16 - 17, 2019",
+  "location": "Stanford University"
+ },
+ {
+  "id": 9235,
+  "title": "TreeHacks 2020",
+  "url": "https://treehacks-2020.devpost.com/",
+  "gallery": "https://treehacks-2020.devpost.com/project-gallery",
+  "registrations": 582,
+  "dates": "Feb 15 - 16, 2020",
+  "location": "Stanford University"
+ },
+ {
+  "id": 17050,
+  "title": "TreeHacks 2023",
+  "url": "https://treehacks-2023.devpost.com/",
+  "gallery": "https://treehacks-2023.devpost.com/project-gallery",
+  "registrations": 1032,
+  "dates": "Feb 18 - 19, 2023",
+  "location": "Stanford University"
+ },
+ {
+  "id": 20399,
+  "title": "TreeHacks 2024",
+  "url": "https://treehacks-2024.devpost.com/",
+  "gallery": "https://treehacks-2024.devpost.com/project-gallery",
+  "registrations": 1123,
+  "dates": "Feb 17 - 18, 2024",
+  "location": "Stanford University"
+ },
+ {
+  "id": 23696,
+  "title": "TreeHacks 2025",
+  "url": "https://treehacks-2025.devpost.com/",
+  "gallery": "https://treehacks-2025.devpost.com/project-gallery",
+  "registrations": 827,
+  "dates": "Feb 15 - 16, 2025",
+  "location": "Stanford University"
+ },
+ {
+  "id": 28463,
+  "title": "TreeHacks 2026",
+  "url": "https://treehacks-2026.devpost.com/",
+  "gallery": "https://treehacks-2026.devpost.com/project-gallery",
+  "registrations": 1096,
+  "dates": "Feb 14 - 15, 2026",
+  "location": "Stanford University"
+ },
+ {
+  "id": 2042,
+  "title": "TreeHacks Winter 2015",
+  "url": "https://treehackswinter2015.devpost.com/",
+  "gallery": "https://treehackswinter2015.devpost.com/project-gallery",
+  "registrations": 287,
+  "dates": "Feb 21 - 22, 2015",
+  "location": "Stanford, CA, USA"
+ },
+ {
+  "id": 19869,
+  "title": "UofTHacks 11",
+  "url": "https://uofthacks-11.devpost.com/",
+  "gallery": "https://uofthacks-11.devpost.com/project-gallery",
+  "registrations": 399,
+  "dates": "Jan 26 - 28, 2024",
+  "location": "University of Toronto - Myhal Centre "
+ },
+ {
+  "id": 28151,
+  "title": "UofTHacks 13",
+  "url": "https://uofthacks-13.devpost.com/",
+  "gallery": "https://uofthacks-13.devpost.com/project-gallery",
+  "registrations": 520,
+  "dates": "Jan 17 - 18, 2026",
+  "location": "Myhal Centre"
+ },
+ {
+  "id": 5990,
+  "title": "UofTHacks V",
+  "url": "https://uofthacksv.devpost.com/",
+  "gallery": "https://uofthacksv.devpost.com/project-gallery",
+  "registrations": 219,
+  "dates": "Jan 19 - 21, 2018",
+  "location": "University of Toronto - Bahen Centre for Information Technology"
+ },
+ {
+  "id": 7537,
+  "title": "UofTHacks VI",
+  "url": "https://uofthacksvi.devpost.com/",
+  "gallery": "https://uofthacksvi.devpost.com/project-gallery",
+  "registrations": 356,
+  "dates": "Jan 18 - 20, 2019",
+  "location": "University of Toronto - Bahen Centre for Information Technology"
+ },
+ {
+  "id": 9252,
+  "title": "UofTHacks VII",
+  "url": "https://uofthacksvii.devpost.com/",
+  "gallery": "https://uofthacksvii.devpost.com/project-gallery",
+  "registrations": 224,
+  "dates": "Jan 17 - 19, 2020",
+  "location": "Sandford Fleming Building, University of Toronto - St. George Campus"
+ },
+ {
+  "id": 17211,
+  "title": "UofTHacks X",
+  "url": "https://uofthacks-x.devpost.com/",
+  "gallery": "https://uofthacks-x.devpost.com/project-gallery",
+  "registrations": 338,
+  "dates": "Jan 20 - 22, 2023",
+  "location": "University of Toronto - Myhal Centre "
+ },
+ {
+  "id": 4400,
+  "title": "VandyHacks III",
+  "url": "https://vandyhacks3.devpost.com/",
+  "gallery": "https://vandyhacks3.devpost.com/project-gallery",
+  "registrations": 231,
+  "dates": "Nov 12 - 13, 2016",
+  "location": "Nashville, TN"
+ },
+ {
+  "id": 8857,
+  "title": "VandyHacks VI",
+  "url": "https://vandyhacksvi.devpost.com/",
+  "gallery": "https://vandyhacksvi.devpost.com/project-gallery",
+  "registrations": 251,
+  "dates": "Nov 02 - 03, 2019",
+  "location": "Vanderbilt University - the Wond'ry"
+ },
+ {
+  "id": 22358,
+  "title": "VandyHacks XI",
+  "url": "https://vandyhacks-xi.devpost.com/",
+  "gallery": "https://vandyhacks-xi.devpost.com/project-gallery",
+  "registrations": 166,
+  "dates": "Sep 28 - 29, 2024",
+  "location": "Featheringhill Hall"
+ },
+ {
+  "id": 24710,
+  "title": "WildHacks",
+  "url": "https://wildhacks-2025.devpost.com/",
+  "gallery": "https://wildhacks-2025.devpost.com/project-gallery",
+  "registrations": 350,
+  "dates": "Apr 05 - 06, 2025",
+  "location": "Technological Institute"
+ },
+ {
+  "id": 29406,
+  "title": "WildHacks",
+  "url": "https://wildhacks-2026.devpost.com/",
+  "gallery": "https://wildhacks-2026.devpost.com/project-gallery",
+  "registrations": 248,
+  "dates": "Apr 11 - 12, 2026",
+  "location": "Technological Institute"
+ },
+ {
+  "id": 1390,
+  "title": "WildHacks 2014",
+  "url": "https://wildhacks2014.devpost.com/",
+  "gallery": "https://wildhacks2014.devpost.com/project-gallery",
+  "registrations": 389,
+  "dates": "Nov 22 - 23, 2014",
+  "location": "Evanston, IL, USA"
+ },
+ {
+  "id": 3100,
+  "title": "WildHacks 2015",
+  "url": "https://wildhacks2015.devpost.com/",
+  "gallery": "https://wildhacks2015.devpost.com/project-gallery",
+  "registrations": 222,
+  "dates": "Nov 21 - 22, 2015",
+  "location": "Norris University Center"
+ },
+ {
+  "id": 4397,
+  "title": "WildHacks 2016",
+  "url": "https://wildhacks2016.devpost.com/",
+  "gallery": "https://wildhacks2016.devpost.com/project-gallery",
+  "registrations": 224,
+  "dates": "Nov 18 - 20, 2016",
+  "location": "Northwestern University"
+ },
+ {
+  "id": 21141,
+  "title": "WildHacks 2024",
+  "url": "https://wildhacks2024.devpost.com/",
+  "gallery": "https://wildhacks2024.devpost.com/project-gallery",
+  "registrations": 174,
+  "dates": "Apr 06 - 07, 2024",
+  "location": "Northwestern University"
+ },
+ {
+  "id": 26239,
+  "title": "hackUMBC 2025",
+  "url": "https://hackumbc-2025.devpost.com/",
+  "gallery": "https://hackumbc-2025.devpost.com/project-gallery",
+  "registrations": 450,
+  "dates": "Sep 27 - 28, 2025",
+  "location": "University of Maryland, Baltimore County"
+ },
+ {
+  "id": 31191,
+  "title": "hackUMBC 2026",
+  "url": "https://hackumbc-2026.devpost.com/",
+  "gallery": "https://hackumbc-2026.devpost.com/project-gallery",
+  "registrations": 322,
+  "dates": "Sep 26 - 27, 2026",
+  "location": "RAC (Retriever Activities Center)"
+ },
+ {
+  "id": 16439,
+  "title": "hackUMBC Fall 2022",
+  "url": "https://hackumbc-fall-2022.devpost.com/",
+  "gallery": "https://hackumbc-fall-2022.devpost.com/project-gallery",
+  "registrations": 186,
+  "dates": "Oct 01 - 02, 2022",
+  "location": "Interdisciplinary Life Sciences Building"
+ },
+ {
+  "id": 19236,
+  "title": "hackUMBC Fall 2023",
+  "url": "https://hackumbc-fall23.devpost.com/",
+  "gallery": "https://hackumbc-fall23.devpost.com/project-gallery",
+  "registrations": 173,
+  "dates": "Sep 23 - 24, 2023",
+  "location": "Interdisciplinary Life Sciences Building"
+ },
+ {
+  "id": 22444,
+  "title": "hackUMBC Fall 2024",
+  "url": "https://hackumbc-fall-2024.devpost.com/",
+  "gallery": "https://hackumbc-fall-2024.devpost.com/project-gallery",
+  "registrations": 343,
+  "dates": "Sep 28 - 29, 2024",
+  "location": "UMBC ITE/ENGR Bulding"
+ },
+ {
+  "id": 16586,
+  "title": "hackaTUM 2022",
+  "url": "https://hackatum22.devpost.com/",
+  "gallery": "https://hackatum22.devpost.com/project-gallery",
+  "registrations": 596,
+  "dates": "Nov 18 - 20, 2022",
+  "location": "Technical University of Munich, FMI"
+ },
+ {
+  "id": 19453,
+  "title": "hackaTUM 2023",
+  "url": "https://hackatum23.devpost.com/",
+  "gallery": "https://hackatum23.devpost.com/project-gallery",
+  "registrations": 648,
+  "dates": "Nov 17 - 19, 2023",
+  "location": "Technical University of Munich, FMI"
+ },
+ {
+  "id": 22792,
+  "title": "hackaTUM 2024",
+  "url": "https://hackatum24.devpost.com/",
+  "gallery": "https://hackatum24.devpost.com/project-gallery",
+  "registrations": 666,
+  "dates": "Nov 22 - 24, 2024",
+  "location": "Technical University of Munich, FMI"
+ },
+ {
+  "id": 27241,
+  "title": "hackaTUM 2025",
+  "url": "https://hackatum25.devpost.com/",
+  "gallery": "https://hackatum25.devpost.com/project-gallery",
+  "registrations": 751,
+  "dates": "Nov 21 - 23, 2025",
+  "location": "Technical University of Munich, FMI"
+ }
+]
