@@ -1,0 +1,6 @@
+data/cache/
+__pycache__/
+*.pyc
+data/embeddings.npz
+data/projects.csv
+data/scrape.log
