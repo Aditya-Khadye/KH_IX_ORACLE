@@ -99,7 +99,9 @@ class Oracle:
                     track_of(p) for ps in self.w_meta.iloc[np.argsort(-sims[i])[:15]]["prizes"]
                     for p in str(ps).split("|") if p
                 )
-                item["best_track"] = tracks.most_common(1)[0][0] if tracks else "Best Overall"
+                # most prizes are sponsor prizes, so prefer a named track when one shows up
+                named = [(t, c) for t, c in tracks.most_common() if t != "Sponsor challenge"]
+                item["best_track"] = named[0][0] if named else "Sponsor challenge"
             out.append(item)
         return out
 
