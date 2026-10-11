@@ -1,4 +1,5 @@
 const API_BASE = (new URLSearchParams(window.location.search).get("api") || "http://localhost:8000").replace(/\/+$/, "");
+const PREDICTION_TIMEOUT_MS = 90_000;
 const $ = (selector) => document.querySelector(selector);
 const portal = $("#portal");
 const projectEntry = $("#project-entry");
@@ -39,6 +40,9 @@ async function api(path, options = {}) {
   try {
     response = await fetch(`${API_BASE}${path}`, options);
   } catch (error) {
+    if (error.name === "AbortError") {
+      throw new Error("The Oracle took too long to respond. Please try again.");
+    }
     throw new Error(`Could not reach ${API_BASE}. Check that the Oracle backend is running.`);
   }
 
@@ -207,8 +211,6 @@ const wait = (duration) => new Promise((resolve) => window.setTimeout(resolve, d
 
 async function finishReading(result, error) {
   readingScreen.classList.add("is-dissipating");
-  $("#reading-title").textContent = "THE VISION IS CLEAR";
-  $("#reading-subtitle").textContent = error ? "Returning to your project" : "Your future awaits";
   await wait(850);
   readingScreen.hidden = true;
   readingScreen.classList.remove("is-dissipating");
@@ -263,18 +265,19 @@ $("#prediction-form").addEventListener("submit", async (event) => {
   portal.classList.add("is-entry");
   readingScreen.hidden = false;
   readingScreen.classList.remove("is-dissipating");
-  $("#reading-title").textContent = "READING THE STARS";
-  $("#reading-subtitle").textContent = "Tracing the shape of your future";
   setExpanded(false);
   setReading(true);
   setButtonBusy(button, true, "READING THE PROJECT…", "REVEAL MY ODDS");
   const minimumReading = wait(2400);
+  const controller = new AbortController();
+  const timeoutId = window.setTimeout(() => controller.abort(), PREDICTION_TIMEOUT_MS);
   try {
     const [result] = await Promise.all([
       api("/predict", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(payload),
+        signal: controller.signal,
       }),
       minimumReading,
     ]);
@@ -284,6 +287,7 @@ $("#prediction-form").addEventListener("submit", async (event) => {
     await minimumReading;
     await finishReading(null, error);
   } finally {
+    window.clearTimeout(timeoutId);
     setButtonBusy(button, false, "READING THE PROJECT…", "REVEAL MY ODDS");
   }
 });

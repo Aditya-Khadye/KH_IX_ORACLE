@@ -516,31 +516,15 @@ a { color: inherit; }
 .smoke-cloud-one { top: 53px; left: 20px; width: 195px; height: 110px; animation: smokeDriftOne 3.4s ease-in-out infinite alternate; }
 .smoke-cloud-two { top: 118px; right: 8px; width: 210px; height: 125px; opacity: .8; animation: smokeDriftTwo 3.1s ease-in-out -1.1s infinite alternate; }
 .smoke-cloud-three { bottom: 26px; left: 76px; width: 170px; height: 105px; opacity: .6; animation: smokeDriftThree 2.8s ease-in-out -.6s infinite alternate; }
-.smoke-core {
+.smoke-star {
   position: absolute;
   z-index: 3;
   top: 50%;
   left: 50%;
-  width: 66px;
-  height: 66px;
-  display: grid;
-  place-items: center;
-  border: 1px solid rgba(225, 206, 147, .35);
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(221, 201, 127, .18), transparent 68%);
   transform: translate(-50%, -50%);
-  box-shadow: 0 0 45px rgba(221, 201, 127, .15);
 }
-.smoke-core span { color: #ddc97f; font-size: 21px; animation: coreGlimmer 1.3s ease-in-out infinite alternate; }
-.reading-copy { position: absolute; z-index: 5; right: 12px; bottom: 13%; left: 12px; }
-.reading-copy p { margin: 0; color: #dfca83; font-family: var(--mono); font-size: 10px; letter-spacing: .2em; }
-.reading-copy span { display: block; margin-top: 9px; color: rgba(239, 233, 219, .56); font-size: 10px; }
-.reading-copy i { height: 6px; margin-top: 15px; display: flex; justify-content: center; gap: 5px; }
-.reading-copy b { width: 3px; height: 3px; border-radius: 50%; background: #d7c27e; animation: oracleDot 1.2s ease-in-out infinite; }
-.reading-copy b:nth-child(2) { animation-delay: 180ms; }
-.reading-copy b:nth-child(3) { animation-delay: 360ms; }
+.smoke-star span { display: block; color: #ddc97f; font-size: 21px; animation: coreGlimmer 1.3s ease-in-out infinite alternate; }
 .reading-screen.is-dissipating .smoke-vortex { animation: smokeDissipate 850ms cubic-bezier(.4, 0, .2, 1) forwards; }
-.reading-screen.is-dissipating .reading-copy { animation: copyDissipate 500ms ease forwards; }
 
 .prediction-result {
   padding-top: 18px;
@@ -702,9 +686,7 @@ a { color: inherit; }
 @keyframes smokeDriftThree { from { transform: translate(-22px, 4px) rotate(-5deg); opacity: .3; } to { transform: translate(28px, -38px) rotate(13deg) scale(1.16); opacity: .72; } }
 @keyframes vortexBreathe { from { transform: scale(.94); opacity: .8; } to { transform: scale(1.04); opacity: 1; } }
 @keyframes coreGlimmer { from { transform: scale(.75) rotate(-12deg); opacity: .55; } to { transform: scale(1.2) rotate(10deg); opacity: 1; } }
-@keyframes oracleDot { 0%, 70%, 100% { transform: translateY(0); opacity: .25; } 35% { transform: translateY(-4px); opacity: 1; } }
 @keyframes smokeDissipate { 0% { transform: scale(1); opacity: 1; filter: blur(0); } 45% { transform: scale(1.13); opacity: .65; filter: blur(5px); } 100% { transform: scale(1.75); opacity: 0; filter: blur(18px); } }
-@keyframes copyDissipate { to { transform: translateY(10px); opacity: 0; } }
 
 @media (min-width: 1500px) {
   .hero { grid-template-columns: minmax(340px, .7fr) minmax(0, 1.5fr); }
