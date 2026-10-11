@@ -53,7 +53,7 @@ plus strengths and fixes. It's feedback only and does not change the win probabi
 
 ```bash
 export GEMINI_API_KEY=your_key        # https://aistudio.google.com/apikey
-export GEMINI_MODEL=gemini-2.5-flash  # optional
+export GEMINI_MODEL=gemini-flash-lite-latest  # optional, this is the default
 uvicorn app:app --reload --port 8000
 ```
 

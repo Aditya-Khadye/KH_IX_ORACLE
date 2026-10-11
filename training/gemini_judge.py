@@ -5,7 +5,7 @@ the Oracle's score (that model is trained and validated on real outcomes; this o
 
 Turned on only when an API key is set:
     export GEMINI_API_KEY=...            # https://aistudio.google.com/apikey
-    export GEMINI_MODEL=gemini-2.5-flash # optional, this is the default
+    export GEMINI_MODEL=gemini-flash-lite-latest  # optional; falls back through FALLBACK_MODELS
 
 Run on its own:
     python gemini_judge.py https://devpost.com/software/some-project
@@ -15,7 +15,9 @@ import os
 
 import requests
 
-DEFAULT_MODEL = "gemini-2.5-flash"
+DEFAULT_MODEL = "gemini-flash-lite-latest"  # fast (~1-2s); older 2.5 models are closed to new keys
+# tried in order if the chosen model is missing (404), rate limited (429), overloaded or times out
+FALLBACK_MODELS = ["gemini-flash-lite-latest", "gemini-3.5-flash-lite", "gemini-flash-latest"]
 API_URL = "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
 
 # A typical hackathon judging rubric (Devpost / MLH style). Edit to match the event's official one.
@@ -76,13 +78,14 @@ def build_prompt(p: dict) -> str:
     )
 
 
-def judge(p: dict, timeout: int = 45) -> dict:
+def judge(p: dict, timeout: int = 20) -> dict:
     """Returns {"available": True, "scores": [...], "overall": x, ...} or {"available": False, "reason": ...}.
     Never raises, so callers can't be broken by the LLM being down."""
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         return {"available": False, "reason": "Set GEMINI_API_KEY to turn on the Gemini judge."}
-    model = os.environ.get("GEMINI_MODEL", DEFAULT_MODEL)
+    chosen = os.environ.get("GEMINI_MODEL", DEFAULT_MODEL)
+    models = [chosen] + [m for m in FALLBACK_MODELS if m != chosen]
     body = {
         "contents": [{"role": "user", "parts": [{"text": build_prompt(p)}]}],
         "generationConfig": {
@@ -91,15 +94,21 @@ def judge(p: dict, timeout: int = 45) -> dict:
             "responseSchema": SCHEMA,
         },
     }
-    try:
-        r = requests.post(API_URL.format(model=model), json=body, timeout=timeout,
-                          headers={"x-goog-api-key": key, "Content-Type": "application/json"})
-        if r.status_code != 200:
-            return {"available": False, "reason": f"Gemini returned HTTP {r.status_code}: {r.text[:200]}"}
-        text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
-        return parse_response(text, model)
-    except Exception as e:  # network, quota, malformed JSON...
-        return {"available": False, "reason": f"Gemini judge failed: {type(e).__name__}: {e}"}
+    errors = []
+    for model in models:
+        try:
+            r = requests.post(API_URL.format(model=model), json=body, timeout=timeout,
+                              headers={"x-goog-api-key": key, "Content-Type": "application/json"})
+            if r.status_code != 200:
+                errors.append(f"{model}: HTTP {r.status_code}")
+                if r.status_code in (400, 401, 403):  # bad key or request; other models won't help
+                    break
+                continue
+            text = r.json()["candidates"][0]["content"]["parts"][0]["text"]
+            return parse_response(text, model)
+        except Exception as e:  # timeout, network, malformed JSON...
+            errors.append(f"{model}: {type(e).__name__}")
+    return {"available": False, "reason": "Gemini judge unavailable (" + "; ".join(errors) + ")"}
 
 
 def parse_response(text: str, model: str = DEFAULT_MODEL) -> dict:
