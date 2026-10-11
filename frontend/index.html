@@ -1,286 +1,201 @@
 <!doctype html>
 <html lang="en">
-<head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hackathon Oracle</title>
-<style>
-  :root {
-    --bg: #0f0d17; --panel: #1a1726; --panel-2: #231f33; --line: #322c48;
-    --text: #ece8f6; --muted: #9a93b3; --accent: #b48cff; --good: #5fd39a; --bad: #ff7a8a;
-  }
-  * { box-sizing: border-box; }
-  body { margin: 0; background: var(--bg); color: var(--text);
-         font: 15px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
-  header { padding: 28px 24px 8px; max-width: 980px; margin: 0 auto; }
-  h1 { margin: 0; font-size: 30px; letter-spacing: -0.5px; }
-  h1 span { color: var(--accent); }
-  .sub { color: var(--muted); margin-top: 4px; }
-  nav { display: flex; gap: 6px; max-width: 980px; margin: 18px auto 0; padding: 0 24px; flex-wrap: wrap; }
-  nav button { background: var(--panel); color: var(--muted); border: 1px solid var(--line);
-               padding: 9px 16px; border-radius: 999px; cursor: pointer; font-size: 14px; }
-  nav button.on { background: var(--accent); color: #140f22; border-color: var(--accent); font-weight: 600; }
-  main { max-width: 980px; margin: 0 auto; padding: 20px 24px 60px; }
-  .tab { display: none; } .tab.on { display: block; }
-  .card { background: var(--panel); border: 1px solid var(--line); border-radius: 14px; padding: 20px; margin-bottom: 16px; }
-  .row { display: flex; gap: 10px; flex-wrap: wrap; }
-  input[type=text], textarea { flex: 1; min-width: 220px; background: var(--panel-2); color: var(--text);
-         border: 1px solid var(--line); border-radius: 10px; padding: 11px 13px; font-size: 15px; }
-  button.go { background: var(--accent); color: #140f22; border: 0; border-radius: 10px;
-              padding: 11px 18px; font-weight: 700; cursor: pointer; font-size: 15px; }
-  button.go:disabled { opacity: .5; cursor: wait; }
-  .muted { color: var(--muted); font-size: 13px; }
-  .big { font-size: 64px; font-weight: 800; letter-spacing: -2px; line-height: 1; }
-  .gauge { height: 12px; background: var(--panel-2); border-radius: 999px; overflow: hidden; margin: 14px 0 6px; }
-  .gauge > div { height: 100%; background: linear-gradient(90deg, #7a5cff, var(--accent)); border-radius: 999px; }
-  .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
-  @media (max-width: 720px) { .grid2 { grid-template-columns: 1fr; } .big { font-size: 48px; } }
-  ul.reasons { list-style: none; padding: 0; margin: 0; }
-  ul.reasons li { padding: 8px 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 12px; }
-  ul.reasons li:last-child { border-bottom: 0; }
-  .pill { font-size: 12px; padding: 2px 10px; border-radius: 999px; font-weight: 600; white-space: nowrap; }
-  .pill.helps { background: rgba(95,211,154,.15); color: var(--good); }
-  .pill.hurts { background: rgba(255,122,138,.15); color: var(--bad); }
-  .track { display: inline-block; background: var(--panel-2); border: 1px solid var(--line);
-           border-radius: 999px; padding: 4px 12px; margin-top: 8px; }
-  a { color: var(--accent); }
-  table { width: 100%; border-collapse: collapse; }
-  th, td { text-align: left; padding: 9px 8px; border-bottom: 1px solid var(--line); vertical-align: middle; }
-  th { color: var(--muted); font-weight: 500; font-size: 13px; }
-  td.bar { width: 40%; }
-  .mini { height: 8px; background: var(--panel-2); border-radius: 999px; overflow: hidden; }
-  .mini > div { height: 100%; background: var(--accent); }
-  .chart h3 { margin: 0 0 12px; font-size: 15px; }
-  .brow { display: grid; grid-template-columns: 110px 1fr 48px; gap: 10px; align-items: center; margin: 7px 0; font-size: 14px; }
-  .brow .t { height: 14px; background: var(--panel-2); border-radius: 4px; overflow: hidden; }
-  .brow .t > div { height: 100%; background: var(--accent); border-radius: 4px; }
-  .brow .v { text-align: right; color: var(--muted); }
-  .stat { font-size: 30px; font-weight: 800; }
-  .err { color: var(--bad); margin-top: 10px; }
-  .spin { color: var(--muted); margin-top: 10px; }
-  .won { color: var(--good); font-weight: 600; }
-  details summary { cursor: pointer; color: var(--muted); }
-</style>
-</head>
-<body>
-<header>
-  <h1>Hackathon <span>Oracle</span></h1>
-  <div class="sub">Trained on thousands of real Devpost projects to predict who wins.</div>
-</header>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#0b0919">
+    <meta name="description" content="A data-trained oracle for your hackathon project.">
+    <title>Hackathon Oracle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <script type="module" src="./app.js"></script>
+  </head>
+  <body>
+    <main class="app-shell">
+      <div class="sky-noise" aria-hidden="true"></div>
+      <!-- <header class="topbar">
+        <a class="brand" href="./" aria-label="Hackathon Oracle home">
+          <span class="brand-mark" aria-hidden="true">✦</span>
+          <span>HACKATHON ORACLE</span>
+        </a>
+        <a class="nav-link" href="#oracle">THE ORACLE <span aria-hidden="true">↘</span></a>
+      </header> -->
 
-<nav>
-  <button data-tab="odds" class="on">Check your odds</button>
-  <button data-tab="board">Leaderboard</button>
-  <button data-tab="wins">What wins hackathons</button>
-  <button data-tab="proof">How accurate is it?</button>
-</nav>
-
-<main>
-  <!-- CHECK YOUR ODDS -->
-  <section class="tab on" id="odds">
-    <div class="card">
-      <div class="row">
-        <input type="text" id="url" placeholder="Paste a Devpost project link, e.g. https://devpost.com/software/emergent-b2t1fl">
-        <button class="go" id="goPredict">Predict</button>
-      </div>
-      <details style="margin-top:12px">
-        <summary>No Devpost page yet? Describe the project instead</summary>
-        <div style="margin-top:10px; display:grid; gap:8px">
-          <input type="text" id="m_title" placeholder="Title">
-          <input type="text" id="m_tagline" placeholder="One line tagline">
-          <textarea id="m_desc" rows="5" placeholder="Write-up (what it does, how you built it, challenges...)"></textarea>
-          <input type="text" id="m_tech" placeholder="Technologies, comma separated (python, react, gemini)">
-          <div class="row">
-            <input type="text" id="m_team" placeholder="Team size (e.g. 2)">
-            <label class="muted"><input type="checkbox" id="m_video"> Demo video</label>
-            <label class="muted"><input type="checkbox" id="m_gh"> GitHub link</label>
+      <section class="hero">
+        <div class="hero-copy">
+          <div class="eyebrow"><span></span> FOR BUILDERS, BY THE STARS</div>
+          <h1>See your project’s<br><em>winning future.</em></h1>
+          <p class="intro">A little foresight for the late nights. Explore the signals behind winning hackathon projects, then see how your own idea compares.</p>
+          <div class="proof-row">
+            <span class="proof-symbol" aria-hidden="true">✧</span>
+            <p><strong>3,526 projects studied</strong><br>across 17 real hackathons</p>
           </div>
-          <button class="go" id="goManual" style="justify-self:start">Predict from description</button>
+          <a class="scroll-cue" href="#oracle"><span></span> ENTER THE ORACLE</a>
         </div>
-      </details>
-      <div id="predictStatus"></div>
-    </div>
-    <div id="predictOut"></div>
-  </section>
 
-  <!-- LEADERBOARD -->
-  <section class="tab" id="board">
-    <div class="card">
-      <div class="row">
-        <input type="text" id="gallery" value="https://knight-hacks-vii.devpost.com/project-gallery">
-        <button class="go" id="goBoard">Rank gallery</button>
-      </div>
-      <div class="muted" style="margin-top:8px">Scrapes every project in a Devpost gallery and ranks them. The first run on a gallery can take a couple of minutes.</div>
-      <div id="boardStatus"></div>
-    </div>
-    <div id="boardOut"></div>
-  </section>
+        <div class="oracle-stage" id="oracle">
+          <div class="orbit orbit-one" aria-hidden="true"></div>
+          <div class="orbit orbit-two" aria-hidden="true"></div>
+          <div class="orb-wrap">
+            <section class="portal is-entry" id="portal" aria-label="Hackathon Oracle portal">
+              <div class="orb-glare" aria-hidden="true"></div>
+              <div class="orb-glow" aria-hidden="true"></div>
+              <div class="portal-content">
 
-  <!-- WHAT WINS -->
-  <section class="tab" id="wins">
-    <div id="winsOut"><div class="spin">Loading...</div></div>
-  </section>
+                <div class="portal-heading">
+                  <span class="portal-spark" aria-hidden="true">✦</span>
+                  <p>CONSULT THE ORACLE</p>
+                  <span class="portal-subtitle">A reading for your next big idea</span>
+                </div>
 
-  <!-- PROOF -->
-  <section class="tab" id="proof">
-    <div id="proofOut"><div class="spin">Loading...</div></div>
-  </section>
-</main>
+                <section class="project-entry" id="project-entry" aria-labelledby="entry-title">
+                  <div class="panel-heading">
+                    <span class="section-index">01 / PROJECT READING</span>
+                    <h2 id="entry-title">What are you building?</h2>
+                    <p>Share a Devpost page or tell us about your project.</p>
+                  </div>
 
-<script>
-const API = (new URLSearchParams(location.search).get("api")) || "http://localhost:8000";
-const $ = (id) => document.getElementById(id);
-const pct = (x) => (x == null ? "n/a" : Math.round(x * 100) + "%");
-const esc = (s) => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+                  <div class="input-modes" role="tablist" aria-label="Project details input">
+                    <button type="button" class="mode-button is-active" data-mode="devpost" role="tab" aria-selected="true">Devpost link</button>
+                    <button type="button" class="mode-button" data-mode="manual" role="tab" aria-selected="false" tabindex="-1">Project details</button>
+                  </div>
 
-document.querySelectorAll("nav button").forEach(b => b.onclick = () => {
-  document.querySelectorAll("nav button").forEach(x => x.classList.toggle("on", x === b));
-  document.querySelectorAll(".tab").forEach(t => t.classList.toggle("on", t.id === b.dataset.tab));
-  if (b.dataset.tab === "wins") loadWins();
-  if (b.dataset.tab === "proof") loadProof();
-});
+                  <form id="prediction-form" novalidate>
+                    <div class="form-fields" data-form-mode="devpost">
+                      <label class="field">
+                        <span>YOUR DEVPOST PROJECT</span>
+                        <span class="input-shell"><span class="input-mark" aria-hidden="true">↗</span><input id="devpost-url" type="url" placeholder="devpost.com/software/your-project" autocomplete="url"></span>
+                      </label>
+                      <p class="field-note">Public Devpost project pages work best.</p>
+                    </div>
 
-async function api(path, opts) {
-  const r = await fetch(API + path, opts);
-  const body = await r.json().catch(() => ({}));
-  if (!r.ok) throw new Error(body.detail || ("HTTP " + r.status));
-  return body;
-}
+                    <div class="form-fields is-hidden" data-form-mode="manual" aria-hidden="true">
+                      <label class="field">
+                        <span>PROJECT TITLE</span>
+                        <input id="project-title" type="text" placeholder="What do you call it?" maxlength="180">
+                      </label>
+                      <label class="field">
+                        <span>ONE-LINE PITCH</span>
+                        <input id="project-tagline" type="text" placeholder="The idea in a sentence" maxlength="300">
+                      </label>
+                      <label class="field">
+                        <span>THE PITCH</span>
+                        <textarea id="project-description" rows="3" placeholder="What does it do, and who is it for?"></textarea>
+                      </label>
+                      <div class="field-grid">
+                        <label class="field">
+                          <span>TECH STACK <i>COMMA SEPARATED</i></span>
+                          <input id="project-tech" type="text" placeholder="React, Python, Gemini">
+                        </label>
+                        <label class="field team-field">
+                          <span>TEAM</span>
+                          <select id="team-size">
+                            <option value="1">1</option>
+                            <option value="2" selected>2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5+</option>
+                          </select>
+                        </label>
+                      </div>
+                      <div class="option-row">
+                        <label class="check-option"><input id="has-video" type="checkbox"><span class="custom-check"></span> Demo video</label>
+                        <label class="check-option"><input id="has-github" type="checkbox"><span class="custom-check"></span> GitHub link</label>
+                      </div>
+                    </div>
+                    <p class="form-error" id="prediction-error" role="alert"></p>
+                    <button class="gold-button" type="submit" id="predict-button"><span>REVEAL MY ODDS</span><span aria-hidden="true">↗</span></button>
+                  </form>
+                </section>
 
-function status(el, msg, isErr) { $(el).innerHTML = msg ? `<div class="${isErr ? "err" : "spin"}">${esc(msg)}</div>` : ""; }
+                <section class="post-result-view" id="post-result-view" aria-label="Oracle results" hidden>
+                  <div class="portal-tabs" role="tablist" aria-label="Oracle results">
+                    <button type="button" role="tab" id="tab-results" aria-label="Project results" aria-controls="panel-results" aria-selected="true" data-tab="results"><span class="tab-short">Results</span><span class="tab-full">Your results</span></button>
+                    <button type="button" role="tab" id="tab-board" tabindex="-1" aria-label="Leaderboard" aria-controls="panel-board" aria-selected="false" data-tab="board"><span class="tab-short">Leaderboard</span><span class="tab-full">Leaderboard</span></button>
+                    <button type="button" role="tab" id="tab-wins" tabindex="-1" aria-label="What wins hackathons" aria-controls="panel-wins" aria-selected="false" data-tab="wins"><span class="tab-short">What wins</span><span class="tab-full">What wins hackathons</span></button>
+                    <button type="button" role="tab" id="tab-proof" tabindex="-1" aria-label="How accurate is it?" aria-controls="panel-proof" aria-selected="false" data-tab="proof"><span class="tab-short">Accuracy</span><span class="tab-full">How accurate is it?</span></button>
+                  </div>
 
-/* ---------- predict ---------- */
-async function runPredict(payload, btn) {
-  btn.disabled = true;
-  status("predictStatus", "Reading the project and asking the Oracle... (first run downloads the model, ~1 min)");
-  $("predictOut").innerHTML = "";
-  try {
-    const r = await api("/predict", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload) });
-    status("predictStatus", "");
-    renderPrediction(r);
-  } catch (e) {
-    status("predictStatus", "Error: " + e.message + ". Is the backend running on " + API + "?", true);
-  } finally { btn.disabled = false; }
-}
+                  <div class="portal-panels">
+                    <section class="tab-panel is-active" id="panel-results" role="tabpanel" aria-labelledby="tab-results" data-panel="results">
+                      <div class="panel-heading">
+                        <span class="section-index">01 / PROJECT READING</span>
+                        <h2>Your project’s reading</h2>
+                        <p>Your chances, the signals behind them, and similar past winners.</p>
+                      </div>
+                      <div id="prediction-output" class="result-slot" aria-live="polite"></div>
+                      <button class="edit-button" type="button" id="edit-project">↗ &nbsp; EDIT PROJECT DETAILS</button>
+                    </section>
 
-$("goPredict").onclick = (e) => {
-  const url = $("url").value.trim();
-  if (!url) return status("predictStatus", "Paste a Devpost link first.", true);
-  runPredict({ url }, e.target);
-};
-$("goManual").onclick = (e) => {
-  const title = $("m_title").value.trim();
-  if (!title) return status("predictStatus", "Give it at least a title.", true);
-  const desc = $("m_desc").value;
-  runPredict({
-    title, tagline: $("m_tagline").value, description: desc,
-    built_with: $("m_tech").value.split(",").map(s => s.trim().toLowerCase()).filter(Boolean).join("|"),
-    team_size: parseInt($("m_team").value) || 1,
-    has_video: $("m_video").checked ? 1 : 0, has_github: $("m_gh").checked ? 1 : 0,
-    n_sections: (desc.match(/\n\s*\n/g) || []).length + 1,
-  }, e.target);
-};
+                    <section class="tab-panel" id="panel-board" role="tabpanel" aria-labelledby="tab-board" data-panel="board" hidden>
+                      <div class="panel-heading">
+                        <span class="section-index">02 / THE FIELD</span>
+                        <h2>Leaderboard</h2>
+                        <p>See how projects in a Devpost gallery stack up.</p>
+                      </div>
+                      <form id="leaderboard-form" class="gallery-form">
+                        <label class="field">
+                          <span>DEVPOST PROJECT GALLERY</span>
+                          <input id="gallery-url" type="url" value="https://knight-hacks-vii.devpost.com/project-gallery" placeholder="https://your-hackathon.devpost.com/project-gallery">
+                        </label>
+                        <button class="gold-button" type="submit" id="leaderboard-button"><span>RANK THE GALLERY</span><span aria-hidden="true">↗</span></button>
+                      </form>
+                      <p class="field-note">The first run can take a couple of minutes while projects are collected and scored.</p>
+                      <div id="leaderboard-status" aria-live="polite"></div>
+                      <div id="leaderboard-output" class="result-slot"></div>
+                    </section>
 
-function renderPrediction(r) {
-  const reasons = (r.top_reasons || []).map(x =>
-    `<li><span>${esc(x.factor)}</span><span class="pill ${x.effect}">${x.effect}</span></li>`).join("");
-  const sims = (r.similar_winners || []).map(s =>
-    `<li><span><a href="${esc(s.url)}" target="_blank">${esc(s.title)}</a>
-       <div class="muted">${esc(s.hackathon)} · ${esc((s.prizes || "").split("|").join(", "))}</div></span>
-       <span class="muted">${Math.round(s.similarity * 100)}% similar</span></li>`).join("");
-  $("predictOut").innerHTML = `
-    <div class="card">
-      <div class="muted">${esc(r.title)}</div>
-      <div class="big">${pct(r.win_prob)}</div>
-      <div class="gauge"><div style="width:${Math.round(r.win_prob * 100)}%"></div></div>
-      <div class="muted">chance of winning at least one prize (typical project: about 17%)</div>
-      <div class="track">Best shot: <b>${esc(r.best_track)}</b></div>
-    </div>
-    <div class="grid2">
-      <div class="card"><h3 style="margin-top:0">Why</h3><ul class="reasons">${reasons}</ul></div>
-      <div class="card"><h3 style="margin-top:0">Most similar past winners</h3><ul class="reasons">${sims}</ul></div>
-    </div>`;
-}
+                    <section class="tab-panel" id="panel-wins" role="tabpanel" aria-labelledby="tab-wins" data-panel="wins" hidden>
+                      <div class="panel-heading">
+                        <span class="section-index">03 / PATTERNS IN THE STARS</span>
+                        <h2>What wins hackathons</h2>
+                        <p>Patterns from real projects and real outcomes.</p>
+                      </div>
+                      <div id="insights-output" class="result-slot"><p class="loading-note">Gathering the signals…</p></div>
+                    </section>
 
-/* ---------- leaderboard ---------- */
-$("goBoard").onclick = async (e) => {
-  const g = $("gallery").value.trim();
-  e.target.disabled = true;
-  status("boardStatus", "Scraping and scoring every project... this can take a couple of minutes the first time.");
-  $("boardOut").innerHTML = "";
-  try {
-    const r = await api("/leaderboard?gallery=" + encodeURIComponent(g));
-    status("boardStatus", "");
-    const max = Math.max(...r.projects.map(p => p.win_prob));
-    $("boardOut").innerHTML = `<div class="card"><table>
-      <tr><th>#</th><th>Project</th><th>Win chance</th><th></th><th>Best track</th></tr>
-      ${r.projects.map(p => `<tr>
-        <td>${p.rank}</td>
-        <td><a href="${esc(p.url)}" target="_blank">${esc(p.title)}</a></td>
-        <td>${pct(p.win_prob)}</td>
-        <td class="bar"><div class="mini"><div style="width:${(p.win_prob / max) * 100}%"></div></div></td>
-        <td class="muted">${esc(p.best_track)}</td></tr>`).join("")}
-    </table></div>`;
-  } catch (err) {
-    status("boardStatus", "Error: " + err.message, true);
-  } finally { e.target.disabled = false; }
-};
+                    <section class="tab-panel" id="panel-proof" role="tabpanel" aria-labelledby="tab-proof" data-panel="proof" hidden>
+                      <div class="panel-heading">
+                        <span class="section-index">04 / THE ORACLE, TESTED</span>
+                        <h2>How accurate is it?</h2>
+                        <p>Validation on unseen hackathons, plus a real-world backtest.</p>
+                      </div>
+                      <div id="metrics-output" class="result-slot"><p class="loading-note">Reading the record…</p></div>
+                    </section>
+                  </div>
+                </section>
+              </div>
+              <div class="reading-screen" id="reading-screen" role="status" aria-live="polite" hidden>
+                <div class="smoke-vortex" aria-hidden="true">
+                  <div class="smoke-ring smoke-ring-outer"></div>
+                  <div class="smoke-ring smoke-ring-inner"></div>
+                  <div class="smoke-cloud smoke-cloud-one"></div>
+                  <div class="smoke-cloud smoke-cloud-two"></div>
+                  <div class="smoke-cloud smoke-cloud-three"></div>
+                  <div class="smoke-core"><span aria-hidden="true">✦</span></div>
+                </div>
+                <div class="reading-copy">
+                  <p id="reading-title">READING THE STARS</p>
+                  <span id="reading-subtitle">Tracing the shape of your future</span>
+                  <i aria-hidden="true"><b></b><b></b><b></b></i>
+                </div>
+              </div>
+            </section>
+            <div class="orb-base" aria-hidden="true">
+              <div class="base-rim"></div>
+              <div class="base-body"><span>H O</span></div>
+              <div class="base-foot"></div>
+            </div>
+          </div>
+          <p class="portal-caption">GROUNDED IN DATA. GUIDED BY CURIOSITY.</p>
+        </div>
+      </section>
 
-/* ---------- what wins ---------- */
-function bars(title, obj, labels) {
-  const entries = Object.entries(obj).filter(([, v]) => v != null);
-  const max = Math.max(...entries.map(([, v]) => v));
-  return `<div class="card chart"><h3>${esc(title)}</h3>${entries.map(([k, v]) => `
-    <div class="brow"><span>${esc((labels && labels[k]) || k)}</span>
-      <div class="t"><div style="width:${(v / max) * 100}%"></div></div>
-      <span class="v">${pct(v)}</span></div>`).join("")}</div>`;
-}
-let winsLoaded = false;
-async function loadWins() {
-  if (winsLoaded) return;
-  try {
-    const d = await api("/insights");
-    winsLoaded = true;
-    $("winsOut").innerHTML = `
-      <div class="card"><div class="row" style="gap:40px">
-        <div><div class="stat">${d.n_projects.toLocaleString()}</div><div class="muted">projects analyzed</div></div>
-        <div><div class="stat">${d.n_hackathons}</div><div class="muted">hackathons</div></div>
-        <div><div class="stat">${pct(d.overall_win_rate)}</div><div class="muted">of projects win something</div></div>
-      </div></div>
-      <div class="grid2">
-        ${bars("Win rate by write-up length", d.writeup_length)}
-        ${bars("Win rate by team size", d.team_size, {1: "Solo", 2: "2 people", 3: "3 people", 4: "4 people"})}
-        ${bars("Win rate by technologies listed", d.n_tech)}
-        ${bars("Demo video", d.video, {with: "Has video", without: "No video"})}
-        ${bars("Uses AI / ML", d.ai, {uses_ai: "Uses AI", no_ai: "No AI"})}
-        ${bars("Uses hardware", d.hardware, {uses_hardware: "Hardware", no_hardware: "Software only"})}
-      </div>`;
-  } catch (e) { $("winsOut").innerHTML = `<div class="err">Couldn't load insights: ${esc(e.message)}</div>`; }
-}
-
-/* ---------- proof ---------- */
-let proofLoaded = false;
-async function loadProof() {
-  if (proofLoaded) return;
-  try {
-    const m = await api("/metrics");
-    proofLoaded = true;
-    const cv = m.cross_validation[m.chosen_model], bt = m.backtest;
-    $("proofOut").innerHTML = `
-      <div class="card"><div class="row" style="gap:40px">
-        <div><div class="stat">${pct(cv.precision_at_k)}</div><div class="muted">of our top picks really won<br>(vs ${pct(cv.base_rate)} by chance)</div></div>
-        <div><div class="stat">${cv.mean_auc_per_hackathon.toFixed(2)}</div><div class="muted">ranking score on unseen hackathons<br>(0.5 = coin flip, 1.0 = perfect)</div></div>
-      </div></div>
-      ${bt ? `<div class="card">
-        <h3 style="margin-top:0">Backtest: ${esc(bt.hackathon)}</h3>
-        <div class="muted" style="margin-bottom:10px">Trained without it, then predicted it. ${bt.winners_in_our_top_k} of the ${bt.n_winners} real winners landed in our top ${bt.n_winners}
-          (random guessing: about ${Math.round(bt.n_winners * bt.n_winners / bt.n_projects)}). The Best Overall winner ranked #${bt.best_overall_rank} of ${bt.n_projects}.</div>
-        <table><tr><th>#</th><th>Our pick</th><th>Predicted</th><th>Actually won?</th></tr>
-        ${bt.top_10.map((t, i) => `<tr><td>${i + 1}</td><td>${esc(t.title)}</td><td>${pct(t.prob)}</td>
-          <td>${t.actually_won ? `<span class="won">Yes</span> <span class="muted">${esc(t.prizes.split("|").join(", "))}</span>` : `<span class="muted">No</span>`}</td></tr>`).join("")}
-        </table></div>` : ""}`;
-  } catch (e) { $("proofOut").innerHTML = `<div class="err">Couldn't load metrics: ${esc(e.message)}</div>`; }
-}
-</script>
-</body>
+      <footer class="site-footer">
+        <span>NO AI JUDGES WERE BRIBED IN THE MAKING OF THIS ORACLE*</span>
+      </footer>
+    </main>
+  </body>
 </html>
