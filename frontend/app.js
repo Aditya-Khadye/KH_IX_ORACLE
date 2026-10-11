@@ -168,6 +168,41 @@ function renderPrediction(result) {
     </article>`;
 }
 
+/* Gemini judge: optional rubric feedback, loads after the prediction and never blocks it. */
+async function runJudge(payload) {
+  const article = $("#prediction-output .prediction-result");
+  if (!article) return;
+  const box = document.createElement("section");
+  box.className = "result-card judge-card";
+  box.innerHTML = `<h3>Gemini judge</h3><p class="loading-note">Gemini is reading the write-up…</p>`;
+  article.appendChild(box);
+  let judged;
+  try {
+    judged = await api("/judge", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify(payload),
+    });
+  } catch (error) {
+    judged = { available: false, reason: error.message };
+  }
+  if (!judged || !judged.available) {
+    box.innerHTML = `<h3>Gemini judge</h3><p class="field-note">Off: ${escapeHTML((judged && judged.reason) || "unavailable")}</p>`;
+    return;
+  }
+  const scores = (judged.scores || []).map((item) =>
+    `<li><span>${escapeHTML(item.criterion)}</span><span class="similarity">${escapeHTML(item.score)}/10</span></li>`).join("");
+  const list = (items) => (items || []).map((item) => `<li><span>${escapeHTML(item)}</span></li>`).join("");
+  box.innerHTML = `
+    <span class="section-index">RUBRIC FEEDBACK · ${escapeHTML(judged.model)} · NOT PART OF THE WIN %</span>
+    <h3>Gemini judge: ${escapeHTML(judged.overall ?? "n/a")} / 10</h3>
+    <p class="field-note">${escapeHTML(judged.verdict)}</p>
+    <div class="result-grid">
+      <section class="result-card"><h3>Rubric</h3><ul class="reasons-list">${scores}</ul></section>
+      <section class="result-card"><h3>Strengths</h3><ul class="reasons-list">${list(judged.strengths)}</ul><h3>Fix before judging</h3><ul class="reasons-list">${list(judged.fixes)}</ul></section>
+    </div>`;
+}
+
 const wait = (duration) => new Promise((resolve) => window.setTimeout(resolve, duration));
 
 async function finishReading(result, error) {
@@ -244,6 +279,7 @@ $("#prediction-form").addEventListener("submit", async (event) => {
       minimumReading,
     ]);
     await finishReading(result);
+    runJudge(payload);
   } catch (error) {
     await minimumReading;
     await finishReading(null, error);

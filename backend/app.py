@@ -13,6 +13,8 @@ Endpoints (all return JSON):
     GET  /leaderboard?gallery=https://knight-hacks-ix.devpost.com/project-gallery
     GET  /insights          stats for the "what wins hackathons" charts
     GET  /metrics           validation + Knight Hacks VIII backtest
+    POST /judge             same body as /predict; Gemini scores it against a judging rubric
+                            (needs GEMINI_API_KEY, otherwise returns {"available": false})
 """
 import json
 import sys
@@ -27,6 +29,7 @@ from pydantic import BaseModel
 TRAINING = Path(__file__).resolve().parent.parent / "training"
 sys.path.insert(0, str(TRAINING))
 
+import gemini_judge  # noqa: E402
 from predict import Oracle  # noqa: E402
 from scrape import get, parse_project, scrape_gallery  # noqa: E402
 
@@ -53,11 +56,10 @@ class ProjectIn(BaseModel):
 
 @app.get("/health")
 def health():
-    return {"ok": True, "model": oracle.kind}
+    return {"ok": True, "model": oracle.kind, "gemini_judge": gemini_judge.enabled()}
 
 
-@app.post("/predict")
-def predict(p: ProjectIn):
+def _row(p: ProjectIn) -> dict:
     if p.url:
         if "devpost.com/software/" not in p.url:
             raise HTTPException(400, "url must be a devpost.com/software/... project page")
@@ -70,7 +72,18 @@ def predict(p: ProjectIn):
         row = p.model_dump()
     else:
         raise HTTPException(400, "send either a Devpost url or at least a title")
-    return oracle.score(pd.DataFrame([row]))[0]
+    return row
+
+
+@app.post("/predict")
+def predict(p: ProjectIn):
+    return oracle.score(pd.DataFrame([_row(p)]))[0]
+
+
+@app.post("/judge")
+def judge(p: ProjectIn):
+    """LLM judge feedback. Separate from the win probability; never errors if Gemini is off."""
+    return gemini_judge.judge(_row(p))
 
 
 @app.get("/leaderboard")

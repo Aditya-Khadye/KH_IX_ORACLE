@@ -44,3 +44,18 @@ team size, write-up length, number of technologies, AI / hardware, GitHub link.
 
 ### `GET /metrics`
 Validation numbers and the Knight Hacks VIII backtest (our predicted top 10 vs who actually won).
+
+## Gemini judge (optional)
+
+`POST /judge` takes the same body as `/predict` and has Gemini score the write-up against a
+hackathon judging rubric (technical complexity, originality, impact, design, presentation),
+plus strengths and fixes. It's feedback only and does not change the win probability.
+
+```bash
+export GEMINI_API_KEY=your_key        # https://aistudio.google.com/apikey
+export GEMINI_MODEL=gemini-2.5-flash  # optional
+uvicorn app:app --reload --port 8000
+```
+
+Without a key, `/judge` returns `{"available": false, ...}` and the frontend shows the card as off.
+Everything else works the same.
